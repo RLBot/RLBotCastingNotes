@@ -45,7 +45,7 @@
         },
         {
             "name": "Team Dappur",
-            "bots": ["Bowtie", "Penguinbot", "Tuxedo"]
+            "bots": ["Bowtie", "Penguin", "Tuxedo"]
         },
         {
             "name": "Python++",
