@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RLBot Casting Sheet</title>
+
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@material-ui/core@3.9.3/umd/material-ui.production.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+<div class="page-center-div">
+
+    <div id="react_container"></div>
+
+</div>
+
+<!-- Load our React component. -->
+<script type="text/babel">
+
+    'use strict';
+
+    const {
+        Button,
+        Input,
+        Card,
+        CardActions,
+        CardContent,
+        colors,
+        createMuiTheme,
+        CssBaseline,
+        Dialog,
+        Grid,
+        DialogActions,
+        DialogContent,
+        DialogContentText,
+        DialogTitle,
+        Icon,
+        MuiThemeProvider,
+        Paper,
+        Snackbar,
+        TextField,
+        Typography,
+        withStyles,
+    } = window['material-ui'];
+
+
+    const theme = createMuiTheme({
+        palette: {
+            primary: {
+                light: colors.purple[300],
+                main: colors.purple[500],
+                dark: colors.purple[700],
+            },
+            secondary: {
+                light: colors.green[300],
+                main: colors.green[500],
+                dark: colors.green[700],
+            },
+        },
+        typography: {
+            useNextVariants: true,
+        },
+    });
+
+    const styles = theme => ({});
+
+
+    class BotRow extends React.Component {
+
+        render() {
+
+            const idx = this.props.idx;
+            const bot = this.props.botLibrary[this.props.botId];
+            const makerLib = this.props.makerLibrary;
+
+            const self = this;
+
+            if (!bot) {
+                return (<span className="errorMessage">Failed to lookup {this.props.botId}</span>);
+            }
+
+            const makersMarkup = bot.makers.map(function(makerId, idx) {
+                let maker = makerLib[makerId];
+
+                if (maker) {
+                    return (
+                        <span className="botMaker" onClick={() => self.props.spotlightMaker(makerId)}>{maker.name}</span>
+                    );
+                }
+                return (<span className="errorMessage">Failed to lookup {makerId}</span>);
+            });
+
+            return (
+                <tr class="clickTarget" onClick={() => this.props.spotlightBot(this.props.botId)}>
+                    <td className="botName">{bot.name}</td>
+                    <td className="smallish bigLeftMargin"> by {makersMarkup}</td>
+                </tr>
+            );
+        }
+    }
+
+    class BotCard extends React.Component {
+
+        render() {
+
+            const idx = this.props.idx;
+            const bot = this.props.botLibrary[this.props.botId];
+            const makerLib = this.props.makerLibrary;
+
+            const self = this;
+
+            if (!bot) {
+                return (<span className="errorMessage">Failed to lookup {this.props.botId}</span>);
+            }
+
+            const makersMarkup = bot.makers.map(function(makerId, idx) {
+                let maker = makerLib[makerId];
+
+                if (maker) {
+                    return (
+                        <span className="botMaker" onClick={() => self.props.spotlightMaker(makerId)}>{maker.name}</span>
+                    );
+                }
+                return (<span className="errorMessage">Failed to lookup {makerId}</span>);
+            });
+
+            return (
+                <div class="clickTarget" onClick={() => this.props.spotlightBot(this.props.botId)}>
+                    <span className="botName">{bot.name}</span>
+                    <span className="smallish bigLeftMargin"> by {makersMarkup}</span></div>
+            );
+        }
+    }
+
+    class BotSpotlight extends React.Component {
+
+        render() {
+
+            const idx = this.props.idx;
+            const bot = this.props.botLibrary[this.props.botId];
+            const makerLib = this.props.makerLibrary;
+
+            const self = this;
+
+            const makersMarkup = bot.makers.map(function(makerId, idx) {
+                let maker = makerLib[makerId];
+
+                if (maker) {
+                    return (
+                        <div>
+                            <h5 className="botMaker">{maker.name}</h5>
+                            <code>{maker.discordId}</code>
+                            <div>{maker.notes}</div>
+                        </div>
+                    );
+                }
+                return (<span className="errorMessage">Failed to lookup {makerId}</span>);
+            });
+
+            return (
+                <div>
+                    <h3 className="botName">{bot.name}</h3>
+                    {bot.notes}
+
+                    <h4>Made by</h4>
+                    {makersMarkup}
+                </div>
+            );
+        }
+    }
+
+    class TeamSpotlight extends React.Component {
+
+        render() {
+
+            const idx = this.props.idx;
+            const team = this.props.team;
+            const botLib = this.props.botLibrary;
+            const self = this;
+
+            const botRows = team.bots.map(function(botName, idx) {
+                let bot = botLib[botName]
+
+                return (
+                    <BotRow botId={botName} {...self.props} idx={idx} key={idx} />
+                );
+            });
+
+            return (
+                <div>
+                    <span className="teamName">{team.name}</span>
+                    <table>{botRows}</table>
+                </div>
+            );
+        }
+    }
+
+    class TeamRow extends React.Component {
+
+        render() {
+
+            const idx = this.props.idx;
+            const team = this.props.team;
+            const botLib = this.props.botLibrary;
+            const makerLib = this.props.makerLibrary;
+            const self = this;
+
+            const botsMarkup = team.bots.map(function(botName, idx) {
+                let bot = botLib[botName]
+
+                if (bot) {
+                    return (
+                        <span>{bot.name}, </span>
+                    );
+                }
+                return (<span className="errorMessage">Failed to lookup {botName}</span>);
+            });
+
+            return (
+                <div className="teamListing clickTarget" onClick={() => this.props.spotlightTeam(team)}>
+                    <span className="teamName">{team.name}</span>
+                    <div>{botsMarkup}</div>
+                </div>
+            );
+        }
+    }
+
+    class TeamList extends React.Component {
+
+        render() {
+            const self = this;
+            const botLib = this.props.botLibrary;
+            const makerLib = this.props.makerLibrary;
+
+            const itemsMarkup = this.props.teams.map(function(team, idx) {
+                return (
+                    <TeamRow team={team} {...self.props} idx={idx} key={idx} />
+                );
+            });
+
+            return (
+                <div>{itemsMarkup}</div>
+            );
+        }
+    }
+
+    class UltimateBattleLeague extends React.Component {
+
+        constructor(props) {
+            super(props);
+
+            this.state = { 
+                bots: {}, teams: [], makers: {}, pendingBotName: "", 
+                showSnack: false, snackMessage: "", activeTeam: null, activeBotId: null 
+            };
+
+            this.loadState = () => {
+                const content = this.fileReader.result;
+                const state = JSON.parse(content);
+                this.comparisonHash = state.comparisonHash;
+                this.setState({bots: state.bots, teams: state.teams, makers: state.makers});
+            };
+
+            this.handleSelectedFile = (file) => {
+                this.fileReader = new FileReader();
+                this.fileReader.onloadend = this.loadState;
+                this.fileReader.readAsText(file);
+            };
+
+            this.spotlightMaker = (makerId) => {
+                console.log("Maker clicked: " + this.state.makers[makerId]);
+            };
+
+            this.spotlightTeam = (teamObj) => {
+                this.setState({activeTeam: teamObj, activeBotId: null});
+            };
+
+            this.spotlightBot = (botId) => {
+                this.setState({activeBotId: botId});
+            };
+        }
+
+        componentDidMount() {
+            fetch('ultimate-battle-league.json')
+                .then(res => res.json())
+                .then((result) => {
+                    this.setState({
+                        bots: result.bots, teams: result.teams, makers: result.makers
+                    });
+                },
+                (error) => {
+                    console.log(error);
+                }
+            )
+        }
+
+        numAlreadyPlayedDuringIteration = 0;
+        fileReader = null;
+
+        render() {
+
+            const teamContent = this.state.activeTeam ? (
+                <div className="detailContainer">
+                <h2>Team Detail</h2>
+                <Card>
+                    <CardContent>
+                        <TeamSpotlight team={this.state.activeTeam} botLibrary={this.state.bots} makerLibrary={this.state.makers}
+                            spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} />
+                    </CardContent>
+                </Card>
+                </div>
+            ) : (<span />);
+
+            const botSpotlightContent = this.state.activeBotId ? (
+                <div className="detailContainer">
+                <h2>Bot Detail</h2>
+                <Card>
+                    <CardContent>
+                        <BotSpotlight botId={this.state.activeBotId} botLibrary={this.state.bots} 
+                        makerLibrary={this.state.makers} />
+                    </CardContent>
+                </Card>
+                </div>
+            ) : (<span />);
+
+            return (
+                <MuiThemeProvider theme={theme}>
+
+                    <CssBaseline />
+                    <Grid container spacing={24}>
+                        <Grid item>
+                            <h2>Teams</h2>
+                            <Card>
+                                <CardContent>
+                                    <TeamList teams={this.state.teams} botLibrary={this.state.bots} makerLibrary={this.state.makers}
+                                    spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} spotlightTeam={this.spotlightTeam} />
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                        <Grid item>
+                            {teamContent}
+                        </Grid>
+                        <Grid item>
+                            {botSpotlightContent}
+                        </Grid>
+                    </Grid>
+                    <Button component="label">
+                        Load Data
+                        <Input type="file" onChange={e => this.handleSelectedFile(e.target.files[0])} style={{ display: "none" }}/>
+                    </Button>
+                    <Snackbar
+                        anchorOrigin={{vertical: 'bottom', horizontal: 'center'}}
+                        open={this.state.showSnack}
+                        autoHideDuration={5000}
+                        message={this.state.snackMessage}
+                        onClose={this.handleSnackClose}
+                        />
+                </MuiThemeProvider>
+            );
+        }
+    }
+
+
+
+    const App = withStyles(styles)(UltimateBattleLeague);
+    const domContainer = document.querySelector('#react_container');
+    ReactDOM.render(<App/>, domContainer);
+
+</script>
+
+<style type="text/css">
+
+    body {
+        padding: 24px;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 1rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+    }
+
+    .clickTarget {
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 4px;
+        margin-top: 4px;
+        margin-bottom: 2px;
+    }
+
+    .clickTarget:hover {
+        background-color: #f0f7f7;
+    }
+
+    h2 {
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+
+    h3, h4, h5 {
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .detailContainer {
+        min-width: 300px;
+        max-width: 500px;
+    }
+
+    .smallish {
+        font-size: .8em;
+        color: #444;
+    }
+
+    .bigLeftMargin {
+        margin-left: 20px;
+    }
+    
+    td.bigLeftMargin {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    .errorMessage {
+        color: red;
+    }
+
+    .teamListing {
+        margin-top: 8px;
+    }
+
+    .teamName {
+        font-weight: bold;
+    }
+
+</style>
+
+</body>
+</html>

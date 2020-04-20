@@ -1,0 +1,71 @@
+{
+    "makers": {
+        "TheBeard": {"name": "The Beard", "notes": "Lives in America, has a youtube channel.", "discordId": "Impossibum#1555"},
+        "jeroen11dijk": {"name": "jeroen11dijk", "notes": "Host of the Ultimate Battle League", "discordId": "jeroen11dijk#1178"},
+        "B1ue_F1re": {"name": "B1ue_F1re", "notes": "", "discordId": "B1ue_F1re#9542"},
+        "_DaCoolOne_": {"name": "_DaCoolOne_", "notes": "Lives in America, plays the Kazoo, submitted _Fool_ to the Rocket League Air Show", "discordId": "_DaCoolOne_#6111"},
+        "Darxeal": {"name": "Darxeal", "notes": "From the Czech Republic. Won the Rocket League Air Show with his submission 'Awakening'.", "discordId": "Darxeal#1784"},
+        "r0bbi3": {"name": "r0bbi3", "notes": "Welcome r0bbi3!", "discordId": "r0bbi3#0269"},
+        "GodGamer": {"name": "GodGamer", "notes": "", "discordId": "GodGamer029#4765"},
+        "michael": {"name": "michael", "notes": "", "discordId": "michael#0046"},
+        "Hytak": {"name": "Hytak", "notes": "", "discordId": "Hytak#5125"}
+    },
+    "bots": {
+        "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "notes": "Popularized the double jump mechanic."},
+        "Lanfear" :{"name": "Lanfear", "makers": ["jeroen11dijk"]},
+        "Beast" :{"name": "Beast from the East", "makers": ["Eastvillage"]},
+        "SDC" :{"name": "Self-Driving Car", "makers": ["whatisaphone"]},
+        "Manticore" :{"name": "Manticore", "makers": ["Eastvillage"]},
+        "JoeyBot" :{"name": "JoeyBot", "makers": ["Joey676"]},
+        "AGC" :{"name": "AGC", "makers": ["Eru"]},
+        "ReliefBot" :{"name": "ReliefBot", "makers": ["tarehart", "NoodleBeard", "NeverCast"]},
+        "AirBud" :{"name": "Air Bud", "makers": ["tarehart"]},
+        "AdversityBot" :{"name": "AdversityBot", "makers": ["tarehart"]},
+        "Gibbus" :{"name": "Gibbus", "makers": ["Enderjed"]},
+        "Diablo" :{"name": "Diablo", "makers": ["TheBeard"]},
+        "Penguinbot" :{"name": "Penguinbot", "makers": ["_DaCoolOne_"]},
+        "CodenameCryo" :{"name": "Codename Cryo", "makers": ["B1ue_F1re"]},
+        "Bowtie" :{"name": "Bowtie", "makers": ["_DaCoolOne_"]},
+        "Tuxedo" :{"name": "Tuxedo", "makers": ["_DaCoolOne_"]},
+        "BotimusPrime" :{"name": "Botimus Prime", "makers": ["Darxeal"], "notes": "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish."},
+        "Bumblebee" :{"name": "Bumblebee", "makers": ["Darxeal"]},
+        "ibot" :{"name": "ibot", "makers": ["r0bbi3"]},
+        "YangBot" :{"name": "YangBot", "makers": ["GodGamer"]},
+        "Koramund" :{"name": "Koramund", "makers": ["michael"]},
+        "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak"]}
+    },
+    "teams": [
+        {
+            "name": "Trinity",
+            "bots": ["Kamael", "Kamael", "Kamael"]
+        },
+        {
+            "name": "The Tr-ice Force",
+            "bots": ["CodenameCryo", "CodenameCryo", "CodenameCryo"]
+        },
+        {
+            "name": "Team Dappur",
+            "bots": ["Bowtie", "Penguinbot", "Tuxedo"]
+        },
+        {
+            "name": "Python++",
+            "bots": ["BotimusPrime", "Lanfear", "CodenameCryo"]
+        },
+        {
+            "name": "Beehive",
+            "bots": ["Bumblebee", "Bumblebee", "Bumblebee"]
+        },
+        {
+            "name": "ibot",
+            "bots": ["ibot", "ibot", "ibot"]
+        },
+        {
+            "name": "Team lulW",
+            "bots": ["YangBot", "CodenameCryo", "Koramund"]
+        },
+        {
+            "name": "Dukes of Disaster",
+            "bots": ["DisasterBot", "Diablo", "Kamael"]
+        }
+    ]
+}
