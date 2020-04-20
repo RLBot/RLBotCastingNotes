@@ -23,10 +23,10 @@
         "AdversityBot" :{"name": "AdversityBot", "makers": ["tarehart"]},
         "Gibbus" :{"name": "Gibbus", "makers": ["Enderjed"]},
         "Diablo" :{"name": "Diablo", "makers": ["TheBeard"]},
-        "Penguinbot" :{"name": "Penguinbot", "makers": ["_DaCoolOne_"]},
         "CodenameCryo" :{"name": "Codename Cryo", "makers": ["B1ue_F1re"]},
-        "Bowtie" :{"name": "Bowtie", "makers": ["_DaCoolOne_"]},
-        "Tuxedo" :{"name": "Tuxedo", "makers": ["_DaCoolOne_"]},
+        "Penguin" :{"name": "Penguin", "makers": ["_DaCoolOne_"], "notes": "Penguin is the team captain of Team Dappur. Penguin is an OG bot, grabbing his first title in his rookie year, but has not faired so well in 1v1 tournaments. He forged team Dappur with the hopes of grabbing another title. Some people have alleged that the inspiration for Team Dappur's name was a typo. These accusations are completely false, and the accusers shall be hanged at dawn."},
+        "Bowtie" :{"name": "Bowtie", "makers": ["_DaCoolOne_"], "notes": "Easily identifiable with his yellow and green Fennec, Team Dappur's newest addition, Bowtie, claims to be the snappiest dresser. Tuxedo would disagree. Bowtie was initially the sub on Team Dappur, but had to step up after the team dropped Beetle over attitude issues."},
+        "Tuxedo" :{"name": "Tuxedo", "makers": ["_DaCoolOne_"], "notes": "A tested veteran, Tuxedo initially made a name for himself as a ones player, but had a hard time getting picked up by a team. After leaving the scene to focus on his mechanics, Tuxedo joined team Dappur to give himself a shot at a title. Due to his simple yet sleek Dominus, Tuxedo has been nicknamed Mr. Steal yo Shot by the team."},
         "BotimusPrime" :{"name": "Botimus Prime", "makers": ["Darxeal"], "notes": "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish."},
         "Bumblebee" :{"name": "Bumblebee", "makers": ["Darxeal"]},
         "ibot" :{"name": "ibot", "makers": ["r0bbi3"]},
@@ -45,7 +45,7 @@
         },
         {
             "name": "Team Dappur",
-            "bots": ["Bowtie", "Penguinbot", "Tuxedo"]
+            "bots": ["Bowtie", "Penguin", "Tuxedo"]
         },
         {
             "name": "Python++",
