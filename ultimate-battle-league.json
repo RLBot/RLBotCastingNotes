@@ -5,7 +5,7 @@
         "jeroen11dijk": {"name": "jeroen11dijk", "notes": "Host of the Ultimate Battle League", 
             "discordId": "jeroen11dijk#1178", "countryCode": "NL", "joinDate": "2018-06-26"},
         "B1ue_F1re": {"name": "B1ue_F1re", "notes": "", 
-            "discordId": "B1ue_F1re#9542", "countryCode": "BE", "joinDate": "2019-03-12"},
+            "discordId": "B1ue_F1re#9542", "countryCode": "RU", "joinDate": "2019-03-12"},
         "_DaCoolOne_": {"name": "_DaCoolOne_", "notes": "Plays the Kazoo, submitted _Fool_ to the Rocket League Air Show", 
             "discordId": "_DaCoolOne_#6111", "countryCode": "US", "joinDate": "2019-04-12"},
         "Darxeal": {"name": "Darxeal", "notes": "Led the team which won the Rocket League Air Show with their submission 'Awakening'.", 
@@ -36,7 +36,9 @@
         "AdversityBot" :{"name": "AdversityBot", "makers": ["tarehart"]},
         "Gibbus" :{"name": "Gibbus", "makers": ["Enderjed"]},
         "Diablo" :{"name": "Diablo", "makers": ["TheBeard"]},
-        "CodenameCryo" :{"name": "Codename Cryo", "makers": ["B1ue_F1re"]},
+        "CodenameArktis" :{"name": "Codename Arktis", "makers": ["B1ue_F1re"], "notes": "A re-skin of Cryo using the Twinzer. Derived from the Greek ἄρκτος, meaning \"bear , the north\". The meaning of “north” derives from Ἄρκτος (Árktos, “Ursa Major”), because the constellation is in the northern part of the sky."},
+        "CodenameBora" :{"name": "Codename Bora", "makers": ["B1ue_F1re"], "notes": "A re-skin of Cryo using the Octane. The bora is a cold, northern to north-eastern katabatic wind in the Adriatic Sea"},
+        "CodenameCryo" :{"name": "Codename Cryo", "makers": ["B1ue_F1re"], "notes": "Qualified for UBL at just 3 weeks old. Cryo is derived from the Greek word κρύος (krúos), meaning \"icy cold\""},
         "Penguin" :{"name": "Penguin", "makers": ["_DaCoolOne_"], "notes": "Penguin is the team captain of Team Dappur. Penguin is an OG bot, grabbing his first title in his rookie year, but has not faired so well in 1v1 tournaments. He forged team Dappur with the hopes of grabbing another title. Some people have alleged that the inspiration for Team Dappur's name was a typo. These accusations are completely false, and the accusers shall be hanged at dawn."},
         "Bowtie" :{"name": "Bowtie", "makers": ["_DaCoolOne_"], "notes": "Easily identifiable with his yellow and green Fennec, Team Dappur's newest addition, Bowtie, claims to be the snappiest dresser. Tuxedo would disagree. Bowtie was initially the sub on Team Dappur, but had to step up after the team dropped Beetle over attitude issues."},
         "Tuxedo" :{"name": "Tuxedo", "makers": ["_DaCoolOne_"], "notes": "A tested veteran, Tuxedo initially made a name for himself as a ones player, but had a hard time getting picked up by a team. After leaving the scene to focus on his mechanics, Tuxedo joined team Dappur to give himself a shot at a title. Due to his simple yet sleek Dominus, Tuxedo has been nicknamed Mr. Steal yo Shot by the team."},
@@ -56,7 +58,8 @@
         },
         {
             "name": "The Tr-ice Force",
-            "bots": ["CodenameCryo", "CodenameCryo", "CodenameCryo"]
+            "bots": ["CodenameArktis", "CodenameBora", "CodenameCryo"],
+            "notes": "A team of Codename Cryo's, made to look more interesting for viewers and casters. Uses loadout generation to have a random color each game, but will all still have matching colors."
         },
         {
             "name": "Team Dappur",
@@ -75,8 +78,9 @@
             "bots": ["ibot", "ibot", "ibot"]
         },
         {
-            "name": "Team lulW",
-            "bots": ["YangBot", "CodenameCryo", "Koramund"]
+            "name": "Team LULW",
+            "bots": ["YangBot", "CodenameCryo", "Koramund"],
+            "notes": "As the name may suggest, nobody, not even the creators, predicted this team to even win a single game in the upper quailfication bracket. Their qualification run started off with an incredibly close (and lucky) win against The Fosaken, ending only a single goal ahead with more than half of the ball ball dropping into their net. They then surprised everyone by winning their third game against the previous 3v3 champions. Their playstyle is probably one the more unusal ones out there, with Koramund doing most if the offensive work, while Yangbot and Codename Cryo sit further back to support."
         },
         {
             "name": "Dukes of Disaster",
