@@ -201,7 +201,7 @@
             return (
                 <div>
                     <h3 className="botName">{bot.name}</h3>
-                    {bot.notes}
+                    <p>{bot.notes}</p>
                     {statsLink}
                     {makersMarkup}
                 </div>
@@ -226,9 +226,13 @@
                 );
             });
 
+            const statsLink = team.statsUrl ? (<p><a href={team.statsUrl}>View Statistics</a></p>) : null;
+
             return (
                 <div>
-                    <span className="teamName">{team.name}</span>
+                    <h3><span className="teamName">{team.name}</span></h3>
+	                <p>{team.notes}</p>
+	                {statsLink}
                     <table>{botRows}</table>
                 </div>
             );
