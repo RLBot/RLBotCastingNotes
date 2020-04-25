@@ -62,6 +62,7 @@
             "bots": ["CodenameArktis", "CodenameBora", "CodenameCryo"],
             "notes": "A team of Codename Cryo's, made to look more interesting for viewers and casters. Uses loadout generation to have a random color each game, but will all still have matching colors.",
             "statsUrl": "https://braacket.com/league/rlbot3v3/player/29AC5B45-29EC-4248-A07E-EB185699660F"
+
         },
         {
             "name": "Team Dappur",
@@ -88,6 +89,7 @@
             "bots": ["YangBot", "CodenameCryo", "Koramund"],
             "notes": "As the name may suggest, nobody, not even the creators, predicted this team to even win a single game in the upper quailfication bracket. Their qualification run started off with an incredibly close (and lucky) win against The Fosaken, ending only a single goal ahead with more than half of the ball ball dropping into their net. They then surprised everyone by winning their third game against the previous 3v3 champions. Their playstyle is probably one the more unusual ones out there, with Koramund doing most if the offensive work, while Yangbot and Codename Cryo sit further back to support.",
             "statsUrl": "https://braacket.com/league/rlbot3v3/player/D39A5573-E322-4D72-81BE-46E6CF0D5F9D"
+
         },
         {
             "name": "Dukes of Disaster",
