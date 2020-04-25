@@ -54,37 +54,47 @@
     "teams": [
         {
             "name": "Trinity",
-            "bots": ["Kamael", "Kamael", "Kamael"]
+            "bots": ["Kamael", "Kamael", "Kamael"],
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/6399B7EB-2C5C-46BD-85B3-6194A27F666F"
         },
         {
             "name": "The Tr-ice Force",
             "bots": ["CodenameArktis", "CodenameBora", "CodenameCryo"],
-            "notes": "A team of Codename Cryo's, made to look more interesting for viewers and casters. Uses loadout generation to have a random color each game, but will all still have matching colors."
+            "notes": "A team of Codename Cryo's, made to look more interesting for viewers and casters. Uses loadout generation to have a random color each game, but will all still have matching colors.",
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/29AC5B45-29EC-4248-A07E-EB185699660F"
+
         },
         {
             "name": "Team Dappur",
-            "bots": ["Bowtie", "Penguin", "Tuxedo"]
+            "bots": ["Bowtie", "Penguin", "Tuxedo"],
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/9673577F-BB1C-4E39-AAB7-49A0707A9DB8"
         },
         {
             "name": "Python++",
-            "bots": ["BotimusPrime", "Lanfear", "CodenameCryo"]
+            "bots": ["BotimusPrime", "Lanfear", "CodenameCryo"],
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/0A061692-6866-475E-92B9-07D4FFB68A50"
         },
         {
             "name": "Beehive",
-            "bots": ["Bumblebee", "Bumblebee", "Bumblebee"]
+            "bots": ["Bumblebee", "Bumblebee", "Bumblebee"],
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/D6145B07-89D9-4CB4-A0DC-69C4EA88E670"
         },
         {
             "name": "ibot",
-            "bots": ["ibot", "ibot", "ibot"]
+            "bots": ["ibot", "ibot", "ibot"],
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/C42B4E6B-D19B-4BC0-83CC-070E5863467C"
         },
         {
             "name": "Team LULW",
             "bots": ["YangBot", "CodenameCryo", "Koramund"],
-            "notes": "As the name may suggest, nobody, not even the creators, predicted this team to even win a single game in the upper quailfication bracket. Their qualification run started off with an incredibly close (and lucky) win against The Fosaken, ending only a single goal ahead with more than half of the ball ball dropping into their net. They then surprised everyone by winning their third game against the previous 3v3 champions. Their playstyle is probably one the more unusal ones out there, with Koramund doing most if the offensive work, while Yangbot and Codename Cryo sit further back to support."
+            "notes": "As the name may suggest, nobody, not even the creators, predicted this team to even win a single game in the upper quailfication bracket. Their qualification run started off with an incredibly close (and lucky) win against The Fosaken, ending only a single goal ahead with more than half of the ball ball dropping into their net. They then surprised everyone by winning their third game against the previous 3v3 champions. Their playstyle is probably one the more unusual ones out there, with Koramund doing most if the offensive work, while Yangbot and Codename Cryo sit further back to support.",
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/D39A5573-E322-4D72-81BE-46E6CF0D5F9D"
+
         },
         {
             "name": "Dukes of Disaster",
-            "bots": ["DisasterBot", "Diablo", "Kamael"]
+            "bots": ["DisasterBot", "Diablo", "Kamael"],
+            "statsUrl": "https://braacket.com/league/rlbot3v3/player/9E079DA9-CB4C-42D8-9EA6-C8DA65C28A43"
         }
     ]
 }
