@@ -24,31 +24,80 @@
             "discordId": "Eastvillage#2628", "countryCode": "DK", "joinDate": "2018-02-07"}
     },
     "bots": {
-        "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "notes": "Popularized the double jump mechanic."},
+        "Kamael" :{"name": "Kamael", "makers": ["TheBeard"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/8D13C0E3-8E42-432D-9729-A7424644D129?ranking=1A3DCD4A-CC77-4A53-AE19-B2E2F52C790F",
+            "notes": [
+                "Popularized the double jump mechanic."
+            ]
+        },
         "Lanfear" :{"name": "Lanfear", "makers": ["jeroen11dijk"]},
         "Beast" :{"name": "Beast from the East", "makers": ["Eastvillage"]},
-        "SDC" :{"name": "Self-Driving Car", "makers": ["whatisaphone"]},
+        "SDC" :{"name": "Self-Driving Car", "makers": ["whatisaphone"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/8308DD65-8494-4A04-8A05-FA0718BB7126"
+        },
         "Manticore" :{"name": "Manticore", "makers": ["Eastvillage"]},
         "JoeyBot" :{"name": "JoeyBot", "makers": ["Joey676"]},
         "AGC" :{"name": "AGC", "makers": ["Eru"]},
-        "ReliefBot" :{"name": "ReliefBot", "makers": ["tarehart", "NoodleBeard", "NeverCast"]},
-        "AirBud" :{"name": "Air Bud", "makers": ["tarehart"]},
-        "AdversityBot" :{"name": "AdversityBot", "makers": ["tarehart"]},
+        "ReliefBot" :{"name": "ReliefBot", "makers": ["tarehart", "NoodleBeard", "NeverCast"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/7334CCB8-5DD8-451D-95F2-C378E4F6D072"
+        },
+        "AirBud" :{"name": "Air Bud", "makers": ["tarehart"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/80E9FA90-EEC2-45F6-9F1C-A03C4CAB9E97"
+        },
+        "AdversityBot" :{"name": "AdversityBot", "makers": ["tarehart"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/2E8B84D3-9C31-4258-B8DC-50B882F95E4A"
+        },
         "Gibbus" :{"name": "Gibbus", "makers": ["Enderjed"]},
-        "Diablo" :{"name": "Diablo", "makers": ["TheBeard"]},
-        "CodenameArktis" :{"name": "Codename Arktis", "makers": ["B1ue_F1re"], "notes": "A re-skin of Cryo using the Twinzer. Derived from the Greek ἄρκτος, meaning \"bear , the north\". The meaning of “north” derives from Ἄρκτος (Árktos, “Ursa Major”), because the constellation is in the northern part of the sky."},
-        "CodenameBora" :{"name": "Codename Bora", "makers": ["B1ue_F1re"], "notes": "A re-skin of Cryo using the Octane. The bora is a cold, northern to north-eastern katabatic wind in the Adriatic Sea"},
-        "CodenameCryo" :{"name": "Codename Cryo", "makers": ["B1ue_F1re"], "notes": "Qualfied for UBL at just 3 weeks old. Cryo is derived from the Greek word κρύος (krúos), meaning \"icy cold\". Credits to GooseFairy for GoslingUtils, and jeroen11dijk for aerials."},
-        "Penguin" :{"name": "Penguin", "makers": ["_DaCoolOne_"], "notes": "Penguin is the team captain of Team Dappur. Penguin is an OG bot, grabbing his first title in his rookie year, but has not faired so well in 1v1 tournaments. He forged team Dappur with the hopes of grabbing another title. Some people have alleged that the inspiration for Team Dappur's name was a typo. These accusations are completely false, and the accusers shall be hanged at dawn."},
-        "Bowtie" :{"name": "Bowtie", "makers": ["_DaCoolOne_"], "notes": "Easily identifiable with his yellow and green Fennec, Team Dappur's newest addition, Bowtie, claims to be the snappiest dresser. Tuxedo would disagree. Bowtie was initially the sub on Team Dappur, but had to step up after the team dropped Beetle over attitude issues."},
-        "Tuxedo" :{"name": "Tuxedo", "makers": ["_DaCoolOne_"], "notes": "A tested veteran, Tuxedo initially made a name for himself as a ones player, but had a hard time getting picked up by a team. After leaving the scene to focus on his mechanics, Tuxedo joined team Dappur to give himself a shot at a title. Due to his simple yet sleek Dominus, Tuxedo has been nicknamed Mr. Steal yo Shot by the team."},
-        "BotimusPrime" :{"name": "Botimus Prime", "makers": ["Darxeal"], 
-            "statsUrl": "https://braacket.com/league/rlbot/player/86503A63-A4CE-4FBE-B03C-FD7C76B8BFD6", 
-            "notes": "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish."},
+        "Diablo" :{"name": "Diablo", "makers": ["TheBeard"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/F1CA93A6-34F9-43AE-B4F1-BB4B6FAE3D13"
+        },
+        "CodenameArktis" :{"name": "Codename Arktis", "makers": ["B1ue_F1re"],
+            "notes": [
+                "A re-skin of Cryo using the Twinzer.",
+                "Derived from the Greek ἄρκτος, meaning \"bear , the north\". The meaning of “north” derives from Ἄρκτος (Árktos, “Ursa Major”), because the constellation is in the northern part of the sky."
+            ]
+        },
+        "CodenameBora" :{"name": "Codename Bora", "makers": ["B1ue_F1re"],
+            "notes": [
+                "A re-skin of Cryo using the Octane.",
+                "The bora is a cold, northern to north-eastern katabatic wind in the Adriatic Sea"
+            ]
+        },
+        "CodenameCryo" :{"name": "Codename Cryo", "makers": ["B1ue_F1re"],
+            "notes": [
+                "Qualfied for UBL at just 3 weeks old.",
+                "Cryo is derived from the Greek word κρύος (krúos), meaning \"icy cold\".",
+                "Credits to GooseFairy for GoslingUtils, and jeroen11dijk for aerials."
+            ]
+        },
+        "Penguin" :{"name": "Penguin", "makers": ["_DaCoolOne_"],
+            "notes": [
+                "Penguin is the team captain of Team Dappur.", "Penguin is an OG bot, grabbing his first title in his rookie year, but has not faired so well in 1v1 tournaments. He forged team Dappur with the hopes of grabbing another title.", "Some people have alleged that the inspiration for Team Dappur's name was a typo. These accusations are completely false, and the accusers shall be hanged at dawn."]},
+        "Bowtie" :{"name": "Bowtie", "makers": ["_DaCoolOne_"],
+            "notes": [
+                "Easily identifiable with his yellow and green Fennec, Team Dappur's newest addition, Bowtie, claims to be the snappiest dresser. Tuxedo would disagree.",
+                "Bowtie was initially the sub on Team Dappur, but had to step up after the team dropped Beetle over attitude issues."]
+        },
+        "Tuxedo" :{"name": "Tuxedo", "makers": ["_DaCoolOne_"],
+            "notes": [
+                "A tested veteran, Tuxedo initially made a name for himself as a ones player, but had a hard time getting picked up by a team. After leaving the scene to focus on his mechanics, Tuxedo joined team Dappur to give himself a shot at a title.",
+                "Due to his simple yet sleek Dominus, Tuxedo has been nicknamed Mr. Steal yo Shot by the team."]
+        },
+        "BotimusPrime" :{"name": "Botimus Prime", "makers": ["Darxeal"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/86503A63-A4CE-4FBE-B03C-FD7C76B8BFD6",
+            "notes": [
+                "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish."
+            ]
+        },
         "Bumblebee" :{"name": "Bumblebee", "makers": ["Darxeal"]},
         "ibot" :{"name": "ibot", "makers": ["r0bbi3"]},
         "YangBot" :{"name": "YangBot", "makers": ["GodGamer"]},
-        "Koramund" :{"name": "Koramund", "makers": ["michael"]},
+        "Koramund" :{"name": "Koramund", "makers": ["michael"],
+            "statsUrl": "https://braacket.com/league/rlbot/player/A82DFC16-9C81-4980-8E08-4FD7C5CBE517",
+            "notes": [
+                "A dribble bot with no team code. (citation needed)"
+            ]
+        },
         "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak"]}
     },
     "teams": [
@@ -60,7 +109,10 @@
         {
             "name": "The Tr-ice Force",
             "bots": ["CodenameArktis", "CodenameBora", "CodenameCryo"],
-            "notes": "A team of Codename Cryo's, made to look more interesting for viewers and casters. Uses loadout generation to have a random color each game, but will all still have matching colors.",
+            "notes": [
+                "A team of Codename Cryo's, made to look more interesting for viewers and casters.",
+                "Uses loadout generation to have a random color each game, but will all still have matching colors."
+            ],
             "statsUrl": "https://braacket.com/league/rlbot3v3/player/29AC5B45-29EC-4248-A07E-EB185699660F"
 
         },
@@ -87,7 +139,12 @@
         {
             "name": "Team LULW",
             "bots": ["YangBot", "CodenameCryo", "Koramund"],
-            "notes": "As the name may suggest, nobody, not even the creators, predicted this team to even win a single game in the upper quailfication bracket. Their qualification run started off with an incredibly close (and lucky) win against The Fosaken, ending only a single goal ahead with more than half of the ball ball dropping into their net. They then surprised everyone by winning their third game against the previous 3v3 champions. Their playstyle is probably one the more unusual ones out there, with Koramund doing most if the offensive work, while Yangbot and Codename Cryo sit further back to support.",
+            "notes": [
+                "Most unexpected qualification",
+                "Had a ton of luck in the 5-4 win over the Forsaken. Beat The Tripple Threat Champs 2-1",
+                "Unique playstyle with Koramund leading offense, Cryo and Yang in support",
+                "Name originates from the submisison folder being named \"Team Unnamed LULW\", then becoming just \"Team LULW\""
+            ],
             "statsUrl": "https://braacket.com/league/rlbot3v3/player/D39A5573-E322-4D72-81BE-46E6CF0D5F9D"
 
         },
