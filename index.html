@@ -179,6 +179,7 @@
             const idx = this.props.idx;
             const bot = this.props.botLibrary[this.props.botId];
             const makerLib = this.props.makerLibrary;
+            const notes = bot.notes;
             let updatedList;
             if (notes) {
                 updatedList = notes.map((listItems)=>{
