@@ -179,7 +179,12 @@
             const idx = this.props.idx;
             const bot = this.props.botLibrary[this.props.botId];
             const makerLib = this.props.makerLibrary;
-
+            let updatedList;
+            if (notes) {
+                updatedList = notes.map((listItems)=>{
+                    return <li>{listItems}</li>;
+                });
+            }
             const self = this;
 
             const makersMarkup = bot.makers.map(function(makerId, idx) {
@@ -204,7 +209,7 @@
             return (
                 <div>
                     <h3 className="botName">{bot.name}</h3>
-                    <p>{bot.notes}</p>
+	                <p><ul>{updatedList}</ul></p>
                     {statsLink}
                     {makersMarkup}
                 </div>
@@ -220,6 +225,13 @@
             const team = this.props.team;
             const botLib = this.props.botLibrary;
             const self = this;
+            const notes = team.notes;
+            let updatedList;
+            if (notes) {
+                updatedList = notes.map((listItems)=>{
+                    return <li>{listItems}</li>;
+                });
+            }
 
             const botRows = team.bots.map(function(botName, idx) {
                 let bot = botLib[botName]
@@ -234,8 +246,8 @@
             return (
                 <div>
                     <h3><span className="teamName">{team.name}</span></h3>
-	                <p>{team.notes}</p>
-	                {statsLink}
+	                <p><ul>{updatedList}</ul></p>
+                    {statsLink}
                     <table>{botRows}</table>
                 </div>
             );
