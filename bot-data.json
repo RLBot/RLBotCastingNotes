@@ -122,7 +122,7 @@
         },
         "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak"], "language": "python"},
         "ABot": {"name": "ABot", "makers": ["VirxEC"], "language": "python", "notes": ["This is a boost-hogging ATBA bot."]},
-        "ABot": {"name": "VirxEB", "makers": ["VirxEC"], "language": "python", "notes": ["This is the best bot - of all the worst bots :P", "This bot isn't picky with it's car body."]}
+        "VirxEB": {"name": "VirxEB", "makers": ["VirxEC"], "language": "python", "notes": ["This is the best bot - of all the worst bots :P", "This bot isn't picky with it's car body."]}
     },
     "leagues": {
         "Ultimate Battle League": [
