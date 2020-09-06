@@ -45,10 +45,14 @@
         DialogContent,
         DialogContentText,
         DialogTitle,
+        FormControl,
         Icon,
+        InputLabel,
+        MenuItem,
         MuiThemeProvider,
         Paper,
         PropTypes,
+        Select,
         Snackbar,
         Tab,
         Tabs,
@@ -85,8 +89,6 @@
     class BotRow extends React.Component {
 
         render() {
-
-            const idx = this.props.idx;
             const bot = this.props.botLibrary[this.props.botId];
             const makerLib = this.props.makerLibrary;
 
@@ -98,13 +100,15 @@
 
             const makersMarkup = bot.makers.map(function(makerId, idx) {
                 let maker = makerLib[makerId];
-
+                let content = null;
                 if (maker) {
-                    return (
+                    content = (
                         <span className="botMaker" onClick={() => self.props.spotlightMaker(makerId)}>{maker.name}</span>
                     );
+                } else {
+                    content = <span className="errorMessage">Failed to lookup {makerId}</span>;
                 }
-                return (<span className="errorMessage">Failed to lookup {makerId}</span>);
+                return [idx > 0 && ", ", content]
             });
 
             return (
@@ -172,6 +176,15 @@
         }
     }
 
+    const LANGUAGE_ICONS = {
+        "python": "python.png",
+        "kotlin": "kotlin.svg",
+        "java": "java.png",
+        "csharp": "csharp.png",
+        "rust": "rust.svg",
+        "scratch": "scratchcat.png"
+    };
+
     class BotSpotlight extends React.Component {
 
         render() {
@@ -207,8 +220,12 @@
 
             const statsLink = bot.statsUrl ? (<p><a href={bot.statsUrl}>View Statistics</a></p>) : null;
 
+            const languageIconFile = bot.language ? LANGUAGE_ICONS[bot.language] : null;
+            const languageIcon = languageIconFile ? <img src={"language_icons/" + languageIconFile} className="language-icon" /> : null;
+
             return (
                 <div>
+                    {languageIcon}
                     <h3 className="botName">{bot.name}</h3>
 	                <p><ul>{updatedList}</ul></p>
                     {statsLink}
@@ -235,7 +252,7 @@
             }
 
             const botRows = team.bots.map(function(botName, idx) {
-                let bot = botLib[botName]
+                let bot = botLib[botName];
 
                 return (
                     <BotRow botId={botName} {...self.props} idx={idx} key={idx} />
@@ -304,13 +321,34 @@
         }
     }
 
+    class AllBotsList extends React.Component {
+
+        render() {
+            const self = this;
+            const botLib = this.props.botLibrary;
+
+            const itemsMarkup = Object.keys(botLib).map(function(botName) {
+                return (
+                    <BotRow botId={botName} {...self.props} key={botName} />
+                );
+            });
+
+            return (
+                <div>{itemsMarkup}</div>
+            );
+        }
+    }
+
+    const DEFAULT_LEAGUE = "2v2 RLBot Championship 2020";
+    const ALL_BOTS = "All Bots";
+
     class UltimateBattleLeague extends React.Component {
 
         constructor(props) {
             super(props);
 
-            this.state = { 
-                bots: {}, teams: [], makers: {}, pendingBotName: "", 
+            this.state = {
+                bots: {}, leagues: {}, activeLeague: DEFAULT_LEAGUE, makers: {}, pendingBotName: "",
                 showSnack: false, snackMessage: "", activeTeam: null, activeBotId: null, activeTab: 0
             };
 
@@ -318,7 +356,7 @@
                 const content = this.fileReader.result;
                 const state = JSON.parse(content);
                 this.comparisonHash = state.comparisonHash;
-                this.setState({bots: state.bots, teams: state.teams, makers: state.makers});
+                this.setState({bots: state.bots, leagues: state.leagues, activeLeague: DEFAULT_LEAGUE, makers: state.makers});
             };
 
             this.handleSelectedFile = (file) => {
@@ -347,7 +385,7 @@
                 .then(res => res.json())
                 .then((result) => {
                     this.setState({
-                        bots: result.bots, teams: result.teams, makers: result.makers
+                        bots: result.bots, leagues: result.leagues, activeLeague: DEFAULT_LEAGUE, makers: result.makers
                     });
                 },
                 (error) => {
@@ -356,58 +394,114 @@
             )
         }
 
-        numAlreadyPlayedDuringIteration = 0;
+        activeLeagueChanged(league) {
+            this.setState({
+                activeLeague: league, activeTeam: null
+            });
+        }
+
         fileReader = null;
 
-        render() {
-
-            const teamContent = this.state.activeTeam ? (
-                <div className="detailContainer">
-                <h2>Team Detail</h2>
-                <Card>
-                    <CardContent>
-                        <TeamSpotlight team={this.state.activeTeam} botLibrary={this.state.bots} makerLibrary={this.state.makers}
-                            spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} />
-                    </CardContent>
-                </Card>
-                </div>
-            ) : (<span />);
+        getBotViewPanels() {
 
             const botSpotlightContent = this.state.activeBotId ? (
                 <div className="detailContainer">
-                <h2>Bot Detail</h2>
-                <Card>
-                    <CardContent>
-                        <BotSpotlight botId={this.state.activeBotId} botLibrary={this.state.bots} 
-                        makerLibrary={this.state.makers} />
-                    </CardContent>
-                </Card>
+                    <h2>Bot Detail</h2>
+                    <Card>
+                        <CardContent>
+                            <BotSpotlight botId={this.state.activeBotId} botLibrary={this.state.bots}
+                                          makerLibrary={this.state.makers} />
+                        </CardContent>
+                    </Card>
                 </div>
             ) : (<span />);
+
+            const teamList = this.state.leagues[this.state.activeLeague];
+
+            if (teamList) {
+
+                const teamContent = this.state.activeTeam ? (
+                    <div className="detailContainer">
+                        <h2>Team Detail</h2>
+                        <Card>
+                            <CardContent>
+                                <TeamSpotlight team={this.state.activeTeam} botLibrary={this.state.bots}
+                                               makerLibrary={this.state.makers}
+                                               spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker}/>
+                            </CardContent>
+                        </Card>
+                    </div>
+                ) : (<span/>);
+
+                return (
+                    <Grid container spacing={24}>
+                        <Grid item>
+                            <h2>Teams</h2>
+                            <Card>
+                                <CardContent>
+                                    <TeamList teams={teamList} botLibrary={this.state.bots}
+                                              makerLibrary={this.state.makers}
+                                              spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker}
+                                              spotlightTeam={this.spotlightTeam}/>
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                        <Grid item>
+                            {teamContent}
+                        </Grid>
+                        <Grid item>
+                            {botSpotlightContent}
+                        </Grid>
+                    </Grid>
+                );
+            } else if (this.state.activeLeague === ALL_BOTS) {
+                return (
+                    <Grid container spacing={24}>
+                        <Grid item>
+                            <h2>All Bots</h2>
+                            <Card>
+                                <CardContent>
+                                    <AllBotsList teams={teamList} botLibrary={this.state.bots}
+                                              makerLibrary={this.state.makers}
+                                              spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} />
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                        <Grid item>
+                            {botSpotlightContent}
+                        </Grid>
+                    </Grid>
+                );
+            }
+        }
+
+        render() {
+
+
 
             const activeTab = this.state.activeTab;
             let tabContent;
 
             if (activeTab === 0) {
+                const leagueChoices = ["2v2 RLBot Championship 2020", "Ultimate Battle League", ALL_BOTS].map((choice) => (
+                    <MenuItem value={choice}>{choice}</MenuItem>
+                ));
+
                 tabContent = (
                     <div>
-                        <Grid container spacing={24}>
-                            <Grid item>
-                                <h2>Teams</h2>
-                                <Card>
-                                    <CardContent>
-                                        <TeamList teams={this.state.teams} botLibrary={this.state.bots} makerLibrary={this.state.makers}
-                                        spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} spotlightTeam={this.spotlightTeam} />
-                                    </CardContent>
-                                </Card>
-                            </Grid>
-                            <Grid item>
-                                {teamContent}
-                            </Grid>
-                            <Grid item>
-                                {botSpotlightContent}
-                            </Grid>
-                        </Grid>
+                        <div>
+                            <FormControl>
+                                <InputLabel htmlFor="league-select">League</InputLabel>
+                                <Select
+                                    inputProps={{id: 'league-select'}}
+                                    value={this.state.activeLeague}
+                                    onChange={(evt) => this.activeLeagueChanged(evt.target.value)}
+                                >
+                                    {leagueChoices}
+                                </Select>
+                            </FormControl>
+                        </div>
+                        {this.getBotViewPanels()}
                         <Button component="label">
                             Load Data
                             <Input type="file" onChange={e => this.handleSelectedFile(e.target.files[0])} style={{ display: "none" }}/>
@@ -417,7 +511,7 @@
                 );
             } else {
                 tabContent = (
-                    <iframe 
+                    <iframe
                         src="https://docs.google.com/document/d/e/2PACX-1vR_8l7KEGr767HAq0A8sKGbtpv3suxA5eimIuEfinuCOVWiN01dD37XHBr3Q37nil1wb8gGnI9H1IMz/pub?embedded=true"
                         width="100%"
                         height="720"
@@ -512,7 +606,7 @@
     .bigLeftMargin {
         margin-left: 20px;
     }
-    
+
     td.bigLeftMargin {
         margin-left: 0;
         padding-left: 20px;
@@ -534,6 +628,11 @@
         height: 32px;
         margin-bottom: -10px;
         margin-top: -10px;
+    }
+
+    .language-icon {
+        float: right;
+        max-width: 60px;
     }
 
 </style>
