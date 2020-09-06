@@ -477,8 +477,6 @@
 
         render() {
 
-
-
             const activeTab = this.state.activeTab;
             let tabContent;
 
@@ -502,10 +500,12 @@
                             </FormControl>
                         </div>
                         {this.getBotViewPanels()}
-                        <Button component="label">
-                            Load Data
-                            <Input type="file" onChange={e => this.handleSelectedFile(e.target.files[0])} style={{ display: "none" }}/>
-                        </Button>
+                        {!Object.keys(this.state.bots).length && (
+                            <Button component="label">
+                                Load Data
+                                <Input type="file" onChange={e => this.handleSelectedFile(e.target.files[0])} style={{ display: "none" }}/>
+                            </Button>
+                        )}
                         <p>Flag Icons by <a href="https://blogging.com/free-flag-icons/">Blogging.com.</a></p>
                     </div>
                 );
