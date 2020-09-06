@@ -37,7 +37,9 @@
         "Enderjed": {"name": "Enderjed", "notes": "",
             "discordId": "Eru#4898", "countryCode": "GB", "joinDate": "2019-02-22" },
         "VirxEC": {"name": "VirxEC", "notes": "Creator of VirxERLU",
-            "discordId": "VirxEC#0700", "countryCode": "US", "joinDate": "2020-05-14" }
+            "discordId": "VirxEC#0700", "countryCode": "US", "joinDate": "2020-05-14" },
+        "Skyborg": {"name": "Skyborg", "notes": "His strategy revolves around letting the framework update his bots",
+            "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -131,7 +133,13 @@
         },
         "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak"], "language": "python"},
         "ABot": {"name": "ABot", "makers": ["VirxEC"], "language": "python", "notes": ["This is a boost-hogging ATBA bot."]},
-        "VirxEB": {"name": "VirxEB", "makers": ["VirxEC"], "language": "python", "notes": ["This is the best bot - of all the worst bots :P", "This bot isn't picky with its car body."]}
+        "VirxEB": {"name": "VirxEB", "makers": ["VirxEC"], "language": "python", "notes": ["This is the best bot - of all the worst bots :P", "This bot isn't picky with its car body."]},
+        "Skybot" :{"name": "Skybot", "makers": ["Skyborg"], "language": "python",
+            "statsUrl": "https://braacket.com/league/rlbot/player/54FB8C16-6FA9-4C4A-AAD5-3DB8A6AE169B",
+            "notes": [
+                "It's a dribble bot despite the name. Famous for having been fixed by a framework update, instead of by its creator."
+            ]
+        }
     },
     "leagues": {
         "Ultimate Battle League": [
