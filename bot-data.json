@@ -22,7 +22,7 @@
             "discordId": "GooseFairy#6680", "countryCode": "US", "joinDate": "2017-08-19"},
         "Eastvillage": {"name": "Eastvillage", "notes": "",
             "discordId": "Eastvillage#2628", "countryCode": "DK", "joinDate": "2018-02-07"},
-        "tarehart": {"name": "tarehart", "notes": "",
+        "tarehart": {"name": "tarehart", "notes": "Lives in Seattle, works at Amazon.",
             "discordId": "tarehart#6423", "countryCode": "US", "joinDate": "2017-08-20"},
         "noodlebeard": {"name":  "noodle beard", "notes": "Works for Psyonix now!",
             "discordId": "noodle beard#0367", "countryCode": "US", "joinDate": "2017-10-06"},
@@ -39,7 +39,7 @@
         "VirxEC": {"name": "VirxEC", "notes": "Creator of VirxERLU",
             "discordId": "VirxEC#0700", "countryCode": "US", "joinDate": "2020-05-14" },
         "Skyborg": {"name": "Skyborg", "notes": "His strategy revolves around letting the framework update his bots",
-            "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"},
+            "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -66,12 +66,16 @@
             ]
         },
         "AirBud" :{"name": "Air Bud", "makers": ["tarehart"], "language": "kotlin",
-            "statsUrl": "https://braacket.com/league/rlbot/player/80E9FA90-EEC2-45F6-9F1C-A03C4CAB9E97"
+            "statsUrl": "https://braacket.com/league/rlbot/player/80E9FA90-EEC2-45F6-9F1C-A03C4CAB9E97",
+            "notes": ["All aerials all the time!", "Ain't no rule that says a dog can't play Rocket League.", "Shares a codebase with ReliefBot."]
         },
         "AdversityBot" :{"name": "AdversityBot", "makers": ["tarehart"], "language": "kotlin",
-            "statsUrl": "https://braacket.com/league/rlbot/player/2E8B84D3-9C31-4258-B8DC-50B882F95E4A"
+            "statsUrl": "https://braacket.com/league/rlbot/player/2E8B84D3-9C31-4258-B8DC-50B882F95E4A",
+            "notes": ["Notorious demolition bot.", "Shares a codebase with ReliefBot."]
         },
-        "Gibbus" :{"name": "Gibbus", "makers": ["Enderjed"], "language":  "scratch"},
+        "Gibbus" :{"name": "Gibbus", "makers": ["Enderjed"], "language":  "scratch",
+            "statsUrl": "https://braacket.com/league/rlbot/player/E9A0FAEC-CD9E-4A6A-B16B-C00ADB42FFE1"
+        },
         "Diablo" :{"name": "Diablo", "makers": ["TheBeard"],  "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/F1CA93A6-34F9-43AE-B4F1-BB4B6FAE3D13"
         },
@@ -95,14 +99,19 @@
             ]
         },
         "Penguin" :{"name": "Penguin", "makers": ["_DaCoolOne_"], "language": "python",
+            "statsUrl": "https://braacket.com/league/rlbot/player/B0D19534-3302-4588-B076-E1132BA073A5",
             "notes": [
-                "Penguin is the team captain of Team Dappur.", "Penguin is an OG bot, grabbing his first title in his rookie year, but has not faired so well in 1v1 tournaments. He forged team Dappur with the hopes of grabbing another title.", "Some people have alleged that the inspiration for Team Dappur's name was a typo. These accusations are completely false, and the accusers shall be hanged at dawn."]},
+                "Penguin is the team captain of Team Dappur.",
+                "Penguin is an OG bot, grabbing his first title in his rookie year, but has not faired so well in 1v1 tournaments. He forged team Dappur with the hopes of grabbing another title.",
+                "Some people have alleged that the inspiration for Team Dappur's name was a typo. These accusations are completely false, and the accusers shall be hanged at dawn."
+            ]},
         "Bowtie" :{"name": "Bowtie", "makers": ["_DaCoolOne_"], "language": "python",
             "notes": [
                 "Easily identifiable with his yellow and green Fennec, Team Dappur's newest addition, Bowtie, claims to be the snappiest dresser. Tuxedo would disagree.",
                 "Bowtie was initially the sub on Team Dappur, but had to step up after the team dropped Beetle over attitude issues."]
         },
         "Tuxedo" :{"name": "Tuxedo", "makers": ["_DaCoolOne_"], "language": "python",
+            "statsUrl": "https://braacket.com/league/rlbot/player/48270C6C-ECFD-418C-A861-01404A6F87EF",
             "notes": [
                 "A tested veteran, Tuxedo initially made a name for himself as a ones player, but had a hard time getting picked up by a team. After leaving the scene to focus on his mechanics, Tuxedo joined team Dappur to give himself a shot at a title.",
                 "Due to his simple yet sleek Dominus, Tuxedo has been nicknamed Mr. Steal yo Shot by the team."]
@@ -124,13 +133,13 @@
         },
         "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak"], "language": "python"},
         "ABot": {"name": "ABot", "makers": ["VirxEC"], "language": "python", "notes": ["This is a boost-hogging ATBA bot."]},
-        "VirxEB": {"name": "VirxEB", "makers": ["VirxEC"], "language": "python", "notes": ["This is the best bot - of all the worst bots :P", "This bot isn't picky with it's car body."]},
+        "VirxEB": {"name": "VirxEB", "makers": ["VirxEC"], "language": "python", "notes": ["This is the best bot - of all the worst bots :P", "This bot isn't picky with its car body."]},
         "Skybot" :{"name": "Skybot", "makers": ["Skyborg"], "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/54FB8C16-6FA9-4C4A-AAD5-3DB8A6AE169B",
             "notes": [
                 "It's a dribble bot despite the name. Famous for having been fixed by a framework update, instead of by its creator."
             ]
-        },
+        }
     },
     "leagues": {
         "Ultimate Battle League": [
