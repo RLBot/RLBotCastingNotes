@@ -39,7 +39,9 @@
         "VirxEC": {"name": "VirxEC", "notes": "Creator of VirxERLU",
             "discordId": "VirxEC#0700", "countryCode": "US", "joinDate": "2020-05-14" },
         "Skyborg": {"name": "Skyborg", "notes": "His strategy revolves around letting the framework update his bots",
-            "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"}
+            "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"},
+        "Soren": {"name": "Soren", "notes": "Built a machine learning bot through recorded data", 
+            "discordId": "Soren#4101", "countryCode": "US", "joinDate": "2020-7-1"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -139,6 +141,9 @@
             "notes": [
                 "It's a dribble bot despite the name. Famous for having been fixed by a framework update, instead of by its creator."
             ]
+        },
+        "TensorBot" : {"name": "TensorBot", "makers": ["Soren"], "language": "python", 
+            "notes" : ["100% Machine Learning bot trained on Diablo recordings and built using TensorFlow"]
         }
     },
     "leagues": {
