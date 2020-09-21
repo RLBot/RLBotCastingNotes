@@ -207,6 +207,10 @@
             {
                 "name": "ReliefBot",
                 "bots": ["ReliefBot", "ReliefBot"]
+            },
+            {
+                "name": "VirxEB",
+                "bots": ["VirxEB", "VirxEB"]
             }
         ]
     }
