@@ -41,7 +41,9 @@
         "Skyborg": {"name": "Skyborg", "notes": "His strategy revolves around letting the framework update his bots",
             "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"},
         "Soren": {"name": "Soren", "notes": "Built a machine learning bot through recorded data", 
-            "discordId": "Soren#4101", "countryCode": "US", "joinDate": "2020-7-1"}
+            "discordId": "Soren#4101", "countryCode": "US", "joinDate": "2020-7-1"},
+        "Ellbell": {"name": "Ellbell", "notes": "A human?? Also joined 2 days before impossibum LOL GET REKTD", 
+            "discordId": "Ellbell#2168", "countryCode": "US", "joinDate": "2018-11-17"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -144,8 +146,11 @@
         },
         "TensorBot" : {"name": "TensorBot", "makers": ["Soren"], "language": "python", 
             "notes" : ["100% Machine Learning bot trained on Diablo recordings and built using TensorFlow"]
+        },
+        "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python", 
+            "notes": ["Dis bot is p bad ngl. but it kinda knows how to position? so das good. EAT UR VEGGIES OR DIE!"]
         }
-    },
+    }
     "leagues": {
         "Ultimate Battle League": [
             {
@@ -211,6 +216,10 @@
             {
                 "name": "VirxEB",
                 "bots": ["VirxEB", "VirxEB"]
+            },
+            {
+                "name": "EaT uR vEgEtAbLeS",
+                "bots": ["BroccoliBot", "BroccoliBot"]
             }
         ]
     }
