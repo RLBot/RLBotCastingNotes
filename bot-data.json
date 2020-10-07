@@ -148,9 +148,9 @@
             "notes" : ["100% Machine Learning bot trained on Diablo recordings and built using TensorFlow"]
         },
         "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python", 
-            "notes": ["Dis bot is p bad ngl. but it kinda knows how to position? so das good. EAT UR VEGGIES OR DIE!"]
+            "notes": ["I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."]
         }
-    }
+    },
     "leagues": {
         "Ultimate Battle League": [
             {
