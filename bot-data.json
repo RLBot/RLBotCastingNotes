@@ -42,7 +42,7 @@
             "discordId": "VirxEC#0700", "countryCode": "US", "joinDate": "2020-05-14" },
         "Skyborg": {"name": "Skyborg", "notes": "His strategy revolves around letting the framework update his bots",
             "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"},
-        "Soren": {"name": "Soren", "notes": "Built a machine learning bot through recorded data", 
+        "Soren": {"name": "Soren", "notes": "Built a machine learning bot through recorded data",
             "discordId": "Soren#4101", "countryCode": "US", "joinDate": "2020-7-1"},
         "Ellbell": {"name": "Ellbell", "notes": "A promising bot maker.",
             "discordId": "Ellbell#2168", "countryCode": "US", "joinDate": "2018-11-17"},
@@ -168,13 +168,13 @@
                 "It's a dribble bot despite the name. Famous for having been fixed by a framework update, instead of by its creator."
             ]
         },
-        "TensorBot" : {"name": "TensorBot", "makers": ["Soren"], "language": "python", 
+        "TensorBot" : {"name": "TensorBot", "makers": ["Soren"], "language": "python",
             "notes" : ["100% Machine Learning bot trained on Diablo recordings and built using TensorFlow"]
         },
-        "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python", 
+        "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python",
             "notes": ["I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."]
         },
-        "Anarchy": {"name": "Anarchy", "makers": ["Redox","r0bbi3","Darxeal","IamEld3st","ThatGuyDed","DomNomNom","Kipje","Jeroen","dtracers","Jonas","GooseFairy","Marvin","Face","whatisaphone","twobackfromtheend","alion02","Virx", "Will", "Hytak", "_DaCoolOne_"], "language": "python",
+        "Anarchy": {"name": "Anarchy", "makers": ["Redox","r0bbi3","Darxeal","IamEld3st","ThatGuyDed","DomNomNom","Kipje","jeroen11dijk","dtracers","Jonas","GooseFairy","Marvin","Face","whatisaphone","twobackfromtheend","alion02","VirxEC", "Will", "Hytak", "_DaCoolOne_"], "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/347A1211-D18D-4B76-A976-493FD1C61D8C",
             "notes": [
                 "The incarnation of chaos",
