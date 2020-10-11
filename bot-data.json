@@ -49,7 +49,9 @@
         "IamEld3st": {"name": "IamEld3st", "joinDate": "2019-04-22",
             "discordId": "IamEld3st#6666", "notes": ["Claimed at least four bot names, but never finished a proper bot."]},
         "ThatGuyDed": {"name": "ThatGuyDed", "countryCode": "GB", "joinDate": "2018-08-05",
-            "discordId": "ThatGuyDed#1536"}
+            "discordId": "ThatGuyDed#1536"},
+        "Serpentine": {"name": "Serpentine", "countryCode": "NL", "notes": "AI association from the Eindhoven University of Technology in the Netherlands"},
+        "excalo": {"name": "excalo", "notes": "", "discordId": "excalo#7943", "joinDate": "2020-07-20"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -182,7 +184,9 @@
                 "The Anarchy project was started by Redox with a few simple rules: (1) Everyone can contribute to Anarchy. (2) Pull requests are automatically accepted. (3) Pull requests can at most be 200 lines of addition and 100 lines of deletion. (4) You can at most add 200 line of addition and 100 lines of deletion per day.",
                 "Best features of Anarchy: Drawing an anime girl in the middle of the field; playing a sound every time it jumps; playing music every time it scores."
             ]
-        }
+        },
+        "RocketNoodles": {"name": "RocketNoodles", "makers": ["Serpentine"], "language": "python"},
+        "Heart of Gold": {"name": "Heart of Gold", "makers": ["excalo"]}
     },
     "leagues": {
         "Ultimate Battle League": [
@@ -255,8 +259,24 @@
                 "bots": ["Anarchy", "Anarchy"]
             },
             {
+                "name": "Wrath",
+                "bots": ["Kamael", "Kamael"]
+            },
+            {
+                "name": "RocketNoodles",
+                "bots": ["RocketNoodles", "RocketNoodles"]
+            },
+            {
                 "name": "EaT uR vEgEtAbLeS",
                 "bots": ["BroccoliBot", "BroccoliBot"]
+            },
+            {
+                "name": "Lanficore",
+                "bots": ["Lanfear", "Manticore"]
+            },
+            {
+                "name": "Heart of Gold",
+                "bots": ["Heart of Gold", "Heart of Gold"]
             }
         ]
     }
