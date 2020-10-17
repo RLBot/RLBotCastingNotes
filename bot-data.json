@@ -185,7 +185,13 @@
                 "Best features of Anarchy: Drawing an anime girl in the middle of the field; playing a sound every time it jumps; playing music every time it scores."
             ]
         },
-        "RocketNoodles": {"name": "RocketNoodles", "makers": ["Serpentine"], "language": "python"},
+        "RocketNoodles": {"name": "RocketNoodles", "makers": ["Serpentine"], "language": "python", "notes": ["What is a RocketNoodle?",
+         "Hi, you are currently looking at the first version of RocketNoodles. This bot is a Python Hivemind that can play in any formation (1vs1, 2vs2, 3vs3). We use a hierarchical strategy model that makes decisions for our bot on different scales. This allows us to subdivide the many tactical decisions that the bot has to make. At the moment RocketNoodles can perform some simple rotations. We aim to release a new version at the start of 2021.",
+         "Who are its developers?",
+         "RocketNoodles has been developed by a team that is part of AI e-sports association Serpentine. Our team currently consists of 12 students from all over the Netherlands, from different disciplines and different programming skill levels. Most of our members have played Rocket League for at least some time and there are 4 who actively play Rocket League. Their ranks range from Gold 1 to Grand Champion 1. One thing we have in common is that we are all interested in the programming challenge. Our goal is to beat human pros within a 3 year timespan. The current version of RocketNoodles is just a proof of concept but we are sure that we will see major improvements to its performance in the coming months!",
+         "A little bit about Serpentine!",
+         "Serpentine is a student association located at the Technical University of Eindhoven, based in the Netherlands. As an association we participate in various AI competitions. Our latest competition was about automated level generation for Angry Birds, which we managed to win!"]
+},
         "Heart of Gold": {"name": "Heart of Gold", "makers": ["excalo"]}
     },
     "leagues": {
