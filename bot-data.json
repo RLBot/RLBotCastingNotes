@@ -40,10 +40,12 @@
             "discordId": "VirxEC#0700", "countryCode": "US", "joinDate": "2020-05-14" },
         "Skyborg": {"name": "Skyborg", "notes": "His strategy revolves around letting the framework update his bots",
             "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"},
-        "Soren": {"name": "Soren", "notes": "Built a machine learning bot through recorded data", 
-            "discordId": "Soren#4101", "countryCode": "US", "joinDate": "2020-7-1"},
-        "Ellbell": {"name": "Ellbell", "notes": "A human?? Also joined 2 days before impossibum LOL GET REKTD", 
-            "discordId": "Ellbell#2168", "countryCode": "US", "joinDate": "2018-11-17"}
+        "Soren": {"name": "Soren", "notes": "Built a machine learning bot through recorded data",
+            "discordId": "Soren#4101", "countryCode": "US", "joinDate": "2020-07-01"},
+        "Ellbell": {"name": "Ellbell", "notes": "A human?? Also joined 2 days before impossibum LOL GET REKTD",
+            "discordId": "Ellbell#2168", "countryCode": "US", "joinDate": "2018-11-17"},
+        "Marvin": {"name":  "Marvin", "notes": "Framework contributor, tends to show up and win tournaments, then disappear again.",
+            "discordId": "Marvin#2413", "countryCode": "US", "joinDate": "2017-09-22"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -149,10 +151,10 @@
                 "It's a dribble bot despite the name. Famous for having been fixed by a framework update, instead of by its creator."
             ]
         },
-        "TensorBot" : {"name": "TensorBot", "makers": ["Soren"], "language": "python", 
+        "TensorBot" : {"name": "TensorBot", "makers": ["Soren"], "language": "python",
             "notes" : ["100% Machine Learning bot trained on Diablo recordings and built using TensorFlow"]
         },
-        "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python", 
+        "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python",
             "notes": ["I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."]
         },
         "Levi": {"name": "Levi", "makers": ["Hytak"], "language": "python",
