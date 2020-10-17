@@ -135,7 +135,12 @@
                 "A dribble bot with no team code. (citation needed)"
             ]
         },
-        "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak"], "language": "python"},
+        "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak", "Marvin", "TheBeard"], "language": "python",
+            "notes": [
+                "Community bot, looking for contributors.",
+                "Pathfinding uses boostpads as waypoints."
+            ]
+        },
         "ABot": {"name": "ABot", "makers": ["VirxEC"], "language": "python", "notes": ["This is a boost-hogging ATBA bot."]},
         "VirxEB": {"name": "VirxEB", "makers": ["VirxEC"], "language": "python", "notes": ["This is the best bot - of all the worst bots :P", "This bot isn't picky with its car body."]},
         "Skybot" :{"name": "Skybot", "makers": ["Skyborg"], "language": "python",
@@ -149,6 +154,15 @@
         },
         "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python", 
             "notes": ["I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."]
+        },
+        "Levi": {"name": "Levi", "makers": ["Hytak"], "language": "python",
+            "statsUrl": "https://braacket.com/league/rlbot/player/961B9D17-9F37-490E-A71E-CC2AFD256334",
+            "notes": [
+                "One of the first machine learning bots.",
+                "Learned from RashBot made by Marvin.",
+                "Uses hardcoded kick-offs made by Jeroen.",
+                "Only sees the ball."
+            ]
         }
     },
     "leagues": {
