@@ -234,6 +234,10 @@
             {
                 "name": "EaT uR vEgEtAbLeS",
                 "bots": ["BroccoliBot", "BroccoliBot"]
+            },
+            {
+                "name": "Team Imposter",
+                "bots": ["Levi", "TensorBot"]
             }
         ]
     }
