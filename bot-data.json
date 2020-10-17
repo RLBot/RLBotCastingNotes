@@ -70,7 +70,8 @@
             "discordId": "ThatGuyDed#1536", "notes": ""},
         "Serpentine": {"name": "Serpentine", "countryCode": "NL", "notes": "AI association from the Eindhoven University of Technology in the Netherlands"},
         "excalo": {"name": "excalo", "notes": "", "discordId": "excalo#7943", "joinDate": "2020-07-20"},
-        "FootlessQuill54": {"name": "FootlessQuill54", "notes": "", "discordId": "FootlessQuill54#2528", "joinDate": "2018-11-17"}
+        "FootlessQuill54": {"name": "FootlessQuill54", "notes": "", "discordId": "FootlessQuill54#2528", "joinDate": "2018-11-17"},
+        "L0laapk3": {"name": "L0laapk3", "notes": "Too stubborn to actually make a bot", "DiscordId": "L0laapk3#2010", "countryCode": "BE", "joinDate": "2019-12-26"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -241,6 +242,21 @@
                 "Uses hardcoded kick-offs made by Jeroen.",
                 "Only sees the ball."
             ]
+        },
+        "Bribblebot": {"name": "Bribblebot", "makers": ["L0laapk3"], "language": "python",
+            "notes": [
+                "Officially* RLBots most feared ballchaser.",
+                "Doesn't ever defend, as defending is a sign of being insecure. Instead, goes for demo's like a real alpha male.",
+                "Some of the code such as kickoffs and recovery code is not present in the botpack and public repo, as this code is stolen code from Bribblebots cousin Bottleneck."
+            ]
+        },
+        "Bottleneck": {"name": "Bottleneck", "makers": ["L0laapk3"], "language": "cpp",
+            "notes": [
+                "Development originally started in python, but all the code has since been ported to cpp.",
+                "Is a completely multithreaded hivemind, complete with a separate thread for real time ball prediction.",
+                "Has briefly shown up in one tournament in the first half of 2020, before retreating from further tournaments as this bot was severely unfinished.",
+                "Theres a rumor that this bot will never get finished."
+            ]
         }
     },
     "leagues": {
@@ -286,7 +302,7 @@
                     "Most unexpected qualification",
                     "Had a ton of luck in the 5-4 win over the Forsaken. Beat The Tripple Threat Champs 2-1",
                     "Unique playstyle with Koramund leading offense, Cryo and Yang in support",
-                    "Name originates from the submisison folder being named \"Team Unnamed LULW\", then becoming just \"Team LULW\""
+                    "Name originates from the submission folder being named \"Team Unnamed LULW\", then becoming just \"Team LULW\""
                 ],
                 "statsUrl": "https://braacket.com/league/rlbot3v3/player/D39A5573-E322-4D72-81BE-46E6CF0D5F9D"
             },
