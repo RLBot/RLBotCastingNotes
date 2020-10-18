@@ -78,6 +78,8 @@
                 "Popularized the double jump mechanic."
             ]
         },
+        "St. Peter": {"name": "St. Peter", "makers": ["TheBeard"], "language": "python",
+            "notes": ["A goalkeeper-only version of Kamael", "Guards the gates of heaven when he's not goal keeping"]},
         "Lanfear" :{"name": "Lanfear", "makers": ["jeroen11dijk"], "language": "python"},
         "Beast" :{"name": "Beast from the East", "makers": ["Eastvillage"], "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/64911C3A-D60F-476F-AE0D-D8B78F4E0390",
@@ -319,6 +321,10 @@
             {
                 "name": "Team Imposter",
                 "bots": ["Levi", "TensorBot"]
+            },
+            {
+                "name": "Double Trouble",
+                "bots": ["Diablo", "St. Peter"]
             }
         ]
     }
