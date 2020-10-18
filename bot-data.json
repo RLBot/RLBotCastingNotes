@@ -1,5 +1,23 @@
 {
     "makers": {
+        "Will": {"name": "Will", "countryCode": "SK", "joinDate": "2019-01-31",
+            "discordId": "Calculated_Will#4544"},
+        "alion02": {"name": "alion02", "countryCode": "PL", "joinDate": "2018-02-28",
+            "discordId": "alion02#1973"},
+        "twobackfromtheend": {"name": "twobackfromtheend", "countryCode": "SG", "joinDate": "2017-12-17",
+            "discordId": "twobackfromtheend#1471"},
+        "Face": {"name": "Face", "countryCode": "US", "joinDate": "2018-08-03",
+            "discordId": "Face#7765"},
+        "Marvin": {"name": "Marvin", "countryCode": "US", "joinDate": "2017-09-22",
+            "discordId": "Marvin#2413"},
+        "Jonas": {"name": "Jonas", "countryCode": "DK", "joinDate": "2018-11-18",
+            "discordId": "Jonas#2222"},
+        "dtracers": {"name": "dtracers", "countryCode": "US", "joinDate": "2017-08-28",
+            "discordId": "dtracers#9598"},
+        "Kipje13": {"name": "Kipje13", "countryCode": "NL", "joinDate": "2018-08-05",
+            "discordId": "Kipje13#9878"},
+        "DomNomNom": {"name": "DomNomNom", "countryCode": "NZ", "joinDate": "2017-11-12",
+            "discordId": "DomNomNom#1537"},
         "Redox": {"name": "Redox", "countryCode": "IT", "joinDate": "2017-07-22",
             "discordId": "Tangil#3830"},
         "TheBeard": {"name": "Impossibum", "notes": "Previously called The Beard. Popular commentator for RLBot events. Has a youtube channel.",
@@ -176,12 +194,12 @@
         "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python",
             "notes": ["I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."]
         },
-        "Anarchy": {"name": "Anarchy", "makers": ["Redox","r0bbi3","Darxeal","IamEld3st","ThatGuyDed","DomNomNom","Kipje","jeroen11dijk","dtracers","Jonas","GooseFairy","Marvin","Face","whatisaphone","twobackfromtheend","alion02","VirxEC", "Will", "Hytak", "_DaCoolOne_"], "language": "python",
+        "Anarchy": {"name": "Anarchy", "makers": ["Redox", "r0bbi3", "Darxeal", "IamEld3st", "ThatGuyDed", "DomNomNom", "Kipje13", "jeroen11dijk", "dtracers", "Jonas", "GooseFairy", "Marvin", "Face", "whatisaphone", "twobackfromtheend", "alion02", "VirxEC", "Will", "Hytak", "_DaCoolOne_"], "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/347A1211-D18D-4B76-A976-493FD1C61D8C",
             "notes": [
                 "The incarnation of chaos",
                 "The bot with the most contributors",
-                "The Anarchy project was started by Redox with a few simple rules: (1) Everyone can contribute to Anarchy. (2) Pull requests are automatically accepted. (3) Pull requests can at most be 200 lines of addition and 100 lines of deletion. (4) You can at most add 200 line of addition and 100 lines of deletion per day.",
+                "The Anarchy project was started by Redox with a few simple rules: (1) Everyone can contribute to Anarchy. (2) Pull requests (code changes) are automatically accepted. (3) You can only change a limited number of lines of code each day.",
                 "Best features of Anarchy: Drawing an anime girl in the middle of the field; playing a sound every time it jumps; playing music every time it scores."
             ]
         },
