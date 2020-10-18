@@ -1,12 +1,32 @@
 {
     "makers": {
-        "TheBeard": {"name": "The Beard", "notes": "Popular commentator for RLBot events. Has a youtube channel.",
+        "Will": {"name": "Will", "countryCode": "SK", "joinDate": "2019-01-31",
+            "discordId": "Calculated_Will#4544"},
+        "alion02": {"name": "alion02", "countryCode": "PL", "joinDate": "2018-02-28",
+            "discordId": "alion02#1973"},
+        "twobackfromtheend": {"name": "twobackfromtheend", "countryCode": "SG", "joinDate": "2017-12-17",
+            "discordId": "twobackfromtheend#1471"},
+        "Face": {"name": "Face", "countryCode": "US", "joinDate": "2018-08-03",
+            "discordId": "Face#7765"},
+        "Marvin": {"name": "Marvin", "countryCode": "US", "joinDate": "2017-09-22",
+            "discordId": "Marvin#2413", "notes": "Framework contributor, tends to show up and win tournaments, then disappear again."},
+        "Jonas": {"name": "Jonas", "countryCode": "DK", "joinDate": "2018-11-18",
+            "discordId": "Jonas#2222"},
+        "dtracers": {"name": "dtracers", "countryCode": "US", "joinDate": "2017-08-28",
+            "discordId": "dtracers#9598"},
+        "Kipje13": {"name": "Kipje13", "countryCode": "NL", "joinDate": "2018-08-05",
+            "discordId": "Kipje13#9878"},
+        "DomNomNom": {"name": "DomNomNom", "countryCode": "NZ", "joinDate": "2017-11-12",
+            "discordId": "DomNomNom#1537"},
+        "Redox": {"name": "Redox", "countryCode": "IT", "joinDate": "2017-07-22",
+            "discordId": "Tangil#3830"},
+        "TheBeard": {"name": "Impossibum", "notes": "Previously called The Beard. Popular commentator for RLBot events. Has a youtube channel.",
             "discordId": "Impossibum#1555", "countryCode": "US", "joinDate": "2018-11-19"},
-        "jeroen11dijk": {"name": "jeroen11dijk", "notes": "Host of the Ultimate Battle League",
+        "jeroen11dijk": {"name": "jeroen11dijk", "notes": "Host of many tournaments. Most recently the Ultimate Battle League.",
             "discordId": "jeroen11dijk#1178", "countryCode": "NL", "joinDate": "2018-06-26"},
         "B1ue_F1re": {"name": "B1ue_F1re", "notes": "",
             "discordId": "B1ue_F1re#9542", "countryCode": "RU", "joinDate": "2019-03-12"},
-        "_DaCoolOne_": {"name": "_DaCoolOne_", "notes": "Plays the Kazoo, submitted _Fool_ to the Rocket League Air Show",
+        "_DaCoolOne_": {"name": "_DaCoolOne_", "notes": "Plays the Kazoo, submitted _Fool_ to the Rocket League Air Show, and participated in League Play with the pseudonym RLBotBeetle.",
             "discordId": "_DaCoolOne_#6111", "countryCode": "US", "joinDate": "2019-04-12"},
         "Darxeal": {"name": "Darxeal", "notes": "Led the team which won the Rocket League Air Show with their submission 'Awakening'.",
             "discordId": "Darxeal#1784", "countryCode": "CZ", "joinDate": "2018-03-18"},
@@ -16,11 +36,11 @@
             "discordId": "GodGamer029#4765", "countryCode": "DE", "joinDate": "2019-09-06"},
         "michael": {"name": "michael", "notes": "",
             "discordId": "michael#0046", "countryCode": "US", "joinDate": "2018-11-18"},
-        "Hytak": {"name": "Hytak", "notes": "Made a successful machine learning bot.",
+        "Hytak": {"name": "Hytak", "notes": "Made a successful machine learning bot called Levi.",
             "discordId": "Hytak#5125", "countryCode": "NL", "joinDate": "2018-05-28"},
         "GooseFairy": {"name": "GooseFairy", "notes": "Creator of the RLBot Start-To-Finish tutorial series, and GoslingUtils.",
             "discordId": "GooseFairy#6680", "countryCode": "US", "joinDate": "2017-08-19"},
-        "Eastvillage": {"name": "Eastvillage", "notes": "",
+        "Eastvillage": {"name": "Eastvillage", "notes": "Maintainer of CleoPetra, the software used to run RLBot's tournaments. Has also made an RLBot Java tutorial and helps running tournaments like Ultimate Battle League.",
             "discordId": "Eastvillage#2628", "countryCode": "DK", "joinDate": "2018-02-07"},
         "tarehart": {"name": "tarehart", "notes": "Lives in Seattle, works at Amazon.",
             "discordId": "tarehart#6423", "countryCode": "US", "joinDate": "2017-08-20"},
@@ -28,7 +48,7 @@
             "discordId": "noodle beard#0367", "countryCode": "US", "joinDate": "2017-10-06"},
         "NeverCast": {"name": "NeverCast", "notes": "",
             "discordId": "NeverCast#1448", "countryCode": "NZ", "joinDate": "2018-04-11" },
-        "whatisaphone": {"name": "whatisaphone", "notes": "",
+        "whatisaphone": {"name": "whatisaphone", "notes": "Creator of Self-driving Car, the first bot in Rust, and the 1v1 Champion for two years.",
             "discordId": "whatisaphone#8521", "countryCode": "US", "joinDate": "2018-08-05" },
         "Joey676": {"name": "Joey676", "notes": "",
             "discordId": "joey676#4280", "countryCode": "GB", "joinDate": "2018-07-06" },
@@ -36,16 +56,20 @@
             "discordId": "Eru#4898", "countryCode": "US", "joinDate": "2019-03-09" },
         "Enderjed": {"name": "Enderjed", "notes": "",
             "discordId": "Eru#4898", "countryCode": "GB", "joinDate": "2019-02-22" },
-        "VirxEC": {"name": "VirxEC", "notes": "Creator of VirxERLU",
+        "VirxEC": {"name": "VirxEC", "notes": "Creator of VirxERLU an extension of GoslingUtils",
             "discordId": "VirxEC#0700", "countryCode": "US", "joinDate": "2020-05-14" },
         "Skyborg": {"name": "Skyborg", "notes": "His strategy revolves around letting the framework update his bots",
             "discordId": "Skyborg#0894", "countryCode": "PT", "joinDate": "2018-01-10"},
         "Soren": {"name": "Soren", "notes": "Built a machine learning bot through recorded data",
             "discordId": "Soren#4101", "countryCode": "US", "joinDate": "2020-07-01"},
-        "Ellbell": {"name": "Ellbell", "notes": "A human?? Also joined 2 days before impossibum LOL GET REKTD",
+        "Ellbell": {"name": "Ellbell", "notes": "A promising bot maker.",
             "discordId": "Ellbell#2168", "countryCode": "US", "joinDate": "2018-11-17"},
-        "Marvin": {"name":  "Marvin", "notes": "Framework contributor, tends to show up and win tournaments, then disappear again.",
-            "discordId": "Marvin#2413", "countryCode": "US", "joinDate": "2017-09-22"}
+        "IamEld3st": {"name": "IamEld3st", "joinDate": "2019-04-22",
+            "discordId": "IamEld3st#6666", "notes": "Claimed at least four bot names, but never finished a proper bot."},
+        "ThatGuyDed": {"name": "ThatGuyDed", "countryCode": "GB", "joinDate": "2018-08-05",
+            "discordId": "ThatGuyDed#1536", "notes": ""},
+        "Serpentine": {"name": "Serpentine", "countryCode": "NL", "notes": "AI association from the Eindhoven University of Technology in the Netherlands"},
+        "excalo": {"name": "excalo", "notes": "", "discordId": "excalo#7943", "joinDate": "2020-07-20"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -54,15 +78,31 @@
                 "Popularized the double jump mechanic."
             ]
         },
+        "St. Peter": {"name": "St. Peter", "makers": ["TheBeard"], "language": "python",
+            "notes": ["A goalkeeper-only version of Kamael", "Guards the gates of heaven when he's not goal keeping"]},
         "Lanfear" :{"name": "Lanfear", "makers": ["jeroen11dijk"], "language": "python"},
         "Beast" :{"name": "Beast from the East", "makers": ["Eastvillage"], "language": "python",
-            "statsUrl": "https://braacket.com/league/rlbot/player/64911C3A-D60F-476F-AE0D-D8B78F4E0390"},
-        "SDC" :{"name": "Self-Driving Car", "makers": ["whatisaphone"], "language": "rust",
-            "statsUrl": "https://braacket.com/league/rlbot/player/8308DD65-8494-4A04-8A05-FA0718BB7126"
+            "statsUrl": "https://braacket.com/league/rlbot/player/64911C3A-D60F-476F-AE0D-D8B78F4E0390",
+            "notes": [
+                "Was probably the first bot to use utility AI."
+            ]
         },
-        "Manticore" :{"name": "Manticore", "makers": ["Eastvillage"], "language": "python"},
+        "SDC" :{"name": "Self-Driving Car", "makers": ["whatisaphone"], "language": "rust",
+            "statsUrl": "https://braacket.com/league/rlbot/player/8308DD65-8494-4A04-8A05-FA0718BB7126",
+            "notes": [
+                "Held the 1v1 Champion title for two years.",
+                "Was created in a test driven environment, which meant every change was an improvement."
+            ]
+        },
+        "Manticore" :{"name": "Manticore", "makers": ["Eastvillage"], "language": "python",
+            "notes": ["A continuation of Beast from the East with focus on team play."]
+        },
         "JoeyBot" :{"name": "JoeyBot", "makers": ["Joey676"], "language": "csharp",
-            "statsUrl": "https://braacket.com/league/rlbot/player/6E7D14E3-11DC-481F-B57B-456EB6B0061A"},
+            "statsUrl": "https://braacket.com/league/rlbot/player/6E7D14E3-11DC-481F-B57B-456EB6B0061A",
+            "notes": [
+                "Once won a match against Guzabot while being AFK (crashed)."
+            ]
+        },
         "AGC" :{"name": "AGC", "makers": ["Eru"], "language": "java"},
         "ReliefBot" :{"name": "ReliefBot", "makers": ["tarehart", "noodlebeard", "NeverCast"], "language": "kotlin",
             "statsUrl": "https://braacket.com/league/rlbot/player/7334CCB8-5DD8-451D-95F2-C378E4F6D072",
@@ -125,10 +165,14 @@
         "BotimusPrime" :{"name": "Botimus Prime", "makers": ["Darxeal"], "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/86503A63-A4CE-4FBE-B03C-FD7C76B8BFD6",
             "notes": [
-                "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish."
+                "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish and a beautiful flick!"
             ]
         },
-        "Bumblebee" :{"name": "Bumblebee", "makers": ["Darxeal"], "language": "python"},
+        "Bumblebee" :{"name": "Bumblebee", "makers": ["Darxeal"], "language": "python",
+            "notes": [
+                "A hivemind version of Botimus Prime."
+            ]
+        },
         "ibot" :{"name": "ibot", "makers": ["r0bbi3"], "language": "java"},
         "YangBot" :{"name": "YangBot", "makers": ["GodGamer"], "language": "java"},
         "Koramund" :{"name": "Koramund", "makers": ["michael"], "language": "python",
@@ -157,6 +201,23 @@
         "BroccoliBot": {"name": "BroccoliBot", "makers": ["Ellbell"], "language": "python",
             "notes": ["I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."]
         },
+        "Anarchy": {"name": "Anarchy", "makers": ["Redox", "r0bbi3", "Darxeal", "IamEld3st", "ThatGuyDed", "DomNomNom", "Kipje13", "jeroen11dijk", "dtracers", "Jonas", "GooseFairy", "Marvin", "Face", "whatisaphone", "twobackfromtheend", "alion02", "VirxEC", "Will", "Hytak", "_DaCoolOne_"], "language": "python",
+            "statsUrl": "https://braacket.com/league/rlbot/player/347A1211-D18D-4B76-A976-493FD1C61D8C",
+            "notes": [
+                "The incarnation of chaos",
+                "The bot with the most contributors",
+                "The Anarchy project was started by Redox with a few simple rules: (1) Everyone can contribute to Anarchy. (2) Pull requests (code changes) are automatically accepted. (3) You can only change a limited number of lines of code each day.",
+                "Best features of Anarchy: Drawing an anime girl in the middle of the field; playing a sound every time it jumps; playing music every time it scores."
+            ]
+        },
+        "RocketNoodles": {"name": "RocketNoodles", "makers": ["Serpentine"], "language": "python", "notes": ["What is a RocketNoodle?",
+         "Hi, you are currently looking at the first version of RocketNoodles. This bot is a Python Hivemind that can play in any formation (1vs1, 2vs2, 3vs3). We use a hierarchical strategy model that makes decisions for our bot on different scales. This allows us to subdivide the many tactical decisions that the bot has to make. At the moment RocketNoodles can perform some simple rotations. We aim to release a new version at the start of 2021.",
+         "Who are its developers?",
+         "RocketNoodles has been developed by a team that is part of AI e-sports association Serpentine. Our team currently consists of 12 students from all over the Netherlands, from different disciplines and different programming skill levels. Most of our members have played Rocket League for at least some time and there are 4 who actively play Rocket League. Their ranks range from Gold 1 to Grand Champion 1. One thing we have in common is that we are all interested in the programming challenge. Our goal is to beat human pros within a 3 year timespan. The current version of RocketNoodles is just a proof of concept but we are sure that we will see major improvements to its performance in the coming months!",
+         "A little bit about Serpentine!",
+         "Serpentine is a student association located at the Technical University of Eindhoven, based in the Netherlands. As an association we participate in various AI competitions. Our latest competition was about automated level generation for Angry Birds, which we managed to win!"]
+        },
+        "Heart of Gold": {"name": "Heart of Gold", "makers": ["excalo"]},
         "Levi": {"name": "Levi", "makers": ["Hytak"], "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/961B9D17-9F37-490E-A71E-CC2AFD256334",
             "notes": [
@@ -234,12 +295,36 @@
                 "bots": ["VirxEB", "VirxEB"]
             },
             {
+                "name": "Anarchists",
+                "bots": ["Anarchy", "Anarchy"]
+            },
+            {
+                "name": "Wrath",
+                "bots": ["Kamael", "Kamael"]
+            },
+            {
+                "name": "RocketNoodles",
+                "bots": ["RocketNoodles", "RocketNoodles"]
+            },
+            {
                 "name": "EaT uR vEgEtAbLeS",
                 "bots": ["BroccoliBot", "BroccoliBot"]
             },
             {
+                "name": "Lanficore",
+                "bots": ["Lanfear", "Manticore"]
+            },
+            {
+                "name": "Heart of Gold",
+                "bots": ["Heart of Gold", "Heart of Gold"]
+            },
+            {
                 "name": "Team Imposter",
                 "bots": ["Levi", "TensorBot"]
+            },
+            {
+                "name": "Double Trouble",
+                "bots": ["Diablo", "St. Peter"]
             }
         ]
     }
