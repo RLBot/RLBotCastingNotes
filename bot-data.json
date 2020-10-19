@@ -70,8 +70,6 @@
             "discordId": "ThatGuyDed#1536", "notes": ""},
         "Serpentine": {"name": "Serpentine", "countryCode": "NL", "notes": "AI association from the Eindhoven University of Technology in the Netherlands"},
         "excalo": {"name": "excalo", "notes": "", "discordId": "excalo#7943", "joinDate": "2020-07-20"},
-        "Marvin": {"name":  "Marvin", "notes": "Framework contributor, tends to show up and win tournaments, then disappear again.",
-            "discordId": "Marvin#2413", "countryCode": "US", "joinDate": "2017-09-22"},
         "L0laapk3": {"name": "L0laapk3", "notes": "Too stubborn to actually make a bot", "DiscordId": "L0laapk3#2010", "countryCode": "BE", "joinDate": "2019-12-26"}
     },
     "bots": {
