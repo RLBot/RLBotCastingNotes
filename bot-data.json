@@ -32,7 +32,7 @@
             "discordId": "Darxeal#1784", "countryCode": "CZ", "joinDate": "2018-03-18"},
         "r0bbi3": {"name": "r0bbi3", "notes": "Welcome r0bbi3!",
             "discordId": "r0bbi3#0269", "countryCode": "GB", "joinDate": "2018-07-23"},
-        "GodGamer": {"name": "GodGamer", "notes": "",
+        "GodGamer029": {"name": "GodGamer029", "notes": "Works on YangBot. Java, C++. Fan of efficient code",
             "discordId": "GodGamer029#4765", "countryCode": "DE", "joinDate": "2019-09-06"},
         "michael": {"name": "michael", "notes": "",
             "discordId": "michael#0046", "countryCode": "US", "joinDate": "2018-11-18"},
@@ -174,7 +174,14 @@
             ]
         },
         "ibot" :{"name": "ibot", "makers": ["r0bbi3"], "language": "java"},
-        "YangBot" :{"name": "YangBot", "makers": ["GodGamer"], "language": "java"},
+        "YangBot" :{"name": "YangBot", "makers": ["GodGamer029"], "language": "java",
+            "notes": [
+                "Good shooting, terrible positioning",
+                "It's defining feature is its dodge-optimizer code, which chooses the best parameters on the fly to achieve the best possible result",
+                "Uses RLU almost everywhere in its code (Most of it was ported to java though)",
+                "Can aerial, flip-into and chip the ball"
+            ]
+        },
         "Koramund" :{"name": "Koramund", "makers": ["michael"], "language": "python",
             "statsUrl": "https://braacket.com/league/rlbot/player/A82DFC16-9C81-4980-8E08-4FD7C5CBE517",
             "notes": [
