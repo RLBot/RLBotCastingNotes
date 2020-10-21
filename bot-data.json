@@ -177,7 +177,7 @@
         "YangBot" :{"name": "YangBot", "makers": ["GodGamer029"], "language": "java",
             "notes": [
                 "Good shooting, terrible positioning",
-                "It's defining feature is its dodge-optimizer code, which chooses the best parameters on the fly to achieve the best possible result",
+                "Its defining feature is its dodge-optimizer code, which chooses the best parameters on the fly to achieve the best possible result",
                 "Uses RLU almost everywhere in its code (Most of it was ported to java though)",
                 "Can aerial, flip-into and chip the ball"
             ]
