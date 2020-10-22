@@ -69,7 +69,8 @@
         "ThatGuyDed": {"name": "ThatGuyDed", "countryCode": "GB", "joinDate": "2018-08-05",
             "discordId": "ThatGuyDed#1536", "notes": ""},
         "Serpentine": {"name": "Serpentine", "countryCode": "NL", "notes": "AI association from the Eindhoven University of Technology in the Netherlands"},
-        "excalo": {"name": "excalo", "notes": "", "discordId": "excalo#7943", "joinDate": "2020-07-20"}
+        "excalo": {"name": "excalo", "notes": "", "discordId": "excalo#7943", "joinDate": "2020-07-20"},
+        "FootlessQuill54": {"name": "FootlessQuill54", "notes": "", "discordId": "FootlessQuill54#2528", "joinDate": "2018-11-17"}
     },
     "bots": {
         "Kamael" :{"name": "Kamael", "makers": ["TheBeard"], "language": "python",
@@ -187,6 +188,13 @@
             "notes": [
                 "A dribble bot with no team code. (citation needed)"
             ]
+        },
+        "Molten": {"name": "Molten", "makers": ["Ellbell"], "language": "python", "notes": []},
+        "FastFreeze": {"name": "FastFreeze", "makers": ["Parzival"], "language": "python", "notes": []},
+        "OmNom": {"name": "Om Nom", "makers": ["FootlessQuill54"], "language": "scratch", "notes": []},
+        "Wildfire": {"name": "Wildfire", "makers": ["r0bbi3"], "language": "java",
+            "statsUrl": "https://braacket.com/league/rlbot/player/50EDC413-27BB-4728-BCB5-F1D14FF13846?ranking=1A3DCD4A-CC77-4A53-AE19-B2E2F52C790F",
+            "notes": ["A very fast and aggressive bot"]
         },
         "DisasterBot" :{"name": "DisasterBot", "makers": ["Hytak", "Marvin", "TheBeard"], "language": "python",
             "notes": [
@@ -332,6 +340,38 @@
             {
                 "name": "Double Trouble",
                 "bots": ["Diablo", "St. Peter"]
+            },
+            {
+                "name": "Team Bribble",
+                "bots": ["Bribblebot", "Bribblebot"]
+            },
+            {
+                "name": "Prime Time",
+                "bots": ["Wildfire", "BotimusPrime"]
+            },
+            {
+                "name": "Tw-ice Force",
+                "bots": ["CodenameArktis", "CodenameBora"]
+            },
+            {
+                "name": "Molten Mayhem",
+                "bots": ["Molten", "Molten"]
+            },
+            {
+                "name": "Beehive",
+                "bots": ["Bumblebee", "Bumblebee"]
+            },
+            {
+                "name": "Team Freeze",
+                "bots": ["FastFreeze", "FastFreeze"]
+            },
+            {
+                "name": "Scratch That!",
+                "bots": ["OmNom", "Gibbus"]
+            },
+            {
+                "name": "Team W",
+                "bots": ["ReliefBot", "SDC"]
             }
         ]
     }
