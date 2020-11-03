@@ -437,7 +437,7 @@
                     <Grid container spacing={24}>
                         <Grid item>
                             <h2>Teams</h2>
-                            <Card>
+                            <Card className="leftPane">
                                 <CardContent>
                                     <TeamList teams={teamList} botLibrary={this.state.bots}
                                               makerLibrary={this.state.makers}
@@ -459,7 +459,7 @@
                     <Grid container spacing={24}>
                         <Grid item>
                             <h2>All Bots</h2>
-                            <Card>
+                            <Card className="leftPane">
                                 <CardContent>
                                     <AllBotsList teams={teamList} botLibrary={this.state.bots}
                                               makerLibrary={this.state.makers}
@@ -633,6 +633,12 @@
     .language-icon {
         float: right;
         max-width: 60px;
+    }
+
+    .leftPane {
+        max-width: 300px;
+        max-height: 600px;
+        overflow-y: auto;
     }
 
 </style>
