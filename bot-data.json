@@ -86,6 +86,17 @@
         "Was probably the first bot to use utility AI."
       ]
     },
+    "BitBot": {
+      "name": "BitBot",
+      "makers": [
+        "WesKal"
+      ],
+      "language": "python",
+      "notes": [
+        "Designed mainly as a 2v2 bot.",
+        "Based on GoslingUtils."
+      ]
+    },
     "BotimusPrime": {
       "name": "Botimus Prime",
       "makers": [
@@ -96,6 +107,13 @@
       "notes": [
         "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish and a beautiful flick!"
       ]
+    },
+    "BotTaco": {
+      "name": "BotTaco",
+      "makers": [
+        "Bigtaco"
+      ],
+      "language": "csharp"
     },
     "Bottleneck": {
       "name": "Bottleneck",
@@ -206,6 +224,17 @@
       "notes": [
         "Community bot, looking for contributors.",
         "Pathfinding uses boostpads as waypoints."
+      ]
+    },
+    "Element": {
+      "name": "Element",
+      "makers": [
+        "Rangler"
+      ],
+      "language": "pytorch",
+      "notes": [
+        "A neural network trained with reinforcement learning to play 1v1.",
+        "Element was trained with RLGym and has played more than 100k hours of Rocket League."
       ]
     },
     "FastFreeze": {
@@ -384,6 +413,16 @@
       "notes": [
         "A goalkeeper-only version of Kamael",
         "Guards the gates of heaven when he's not goal keeping"
+      ]
+    },
+    "Teammate": {
+      "name": "Teammate",
+      "makers": [
+        "kntndr"
+      ],
+      "language": "python",
+      "notes": [
+        "Made its debut in League Play."
       ]
     },
     "TensorBot": {
@@ -680,6 +719,11 @@
       "countryCode": "RU",
       "joinDate": "2019-03-12"
     },
+    "Bigtaco": {
+      "name": "Bigtaco",
+      "joinDate": "2021-03-06",
+      "discordId": "bigtaco#4277"
+    },
     "Darxeal": {
       "name": "Darxeal",
       "notes": "Led the team which won the Rocket League Air Show with their submission 'Awakening'. Added the appearance editor and many other features to RLBotGUI.",
@@ -696,7 +740,7 @@
     },
     "Eastvillage": {
       "name": "Eastvillage",
-      "notes": "Maintainer of CleoPetra, the software used to run RLBot's tournaments. Has also made an RLBot Java tutorial and helps running tournaments like Ultimate Battle League.",
+      "notes": "Runs East's League Play, a multi-week bot competition with TrueSkill rankings. Maintainer of CleoPetra, the software used to run RLBot's tournaments. Made an RLBot Java tutorial series on YouTube.",
       "discordId": "Eastvillage#2628",
       "countryCode": "DK",
       "joinDate": "2018-02-07"
@@ -781,6 +825,11 @@
       "discordId": "Kipje13#9878",
       "notes": "Added Linux support, quick chat, and speedier rendering to RLBot."
     },
+    "kntndr": {
+      "name": "kntndr",
+      "joinDate": "2021-09-11",
+      "discordId": "kntndr#9824"
+    },
     "L0laapk3": {
       "name": "L0laapk3",
       "notes": "Too stubborn to actually make a bot",
@@ -808,6 +857,13 @@
       "discordId": "Parzival#1467",
       "countryCode": "US",
       "joinDate": "2019-02-15"
+    },
+    "Rangler": {
+      "name": "Rangler",
+      "countryCode": "AR",
+      "joinDate": "2019-11-05",
+      "discordId": "Rangler#8320",
+      "notes": "Made the initial commit to RLGym environment for reinforcement learning."
     },
     "Redox": {
       "name": "Redox",
@@ -855,6 +911,11 @@
       "discordId": "VirxEC#0700",
       "countryCode": "US",
       "joinDate": "2020-05-14"
+    },
+    "WesKal": {
+      "name": "WesKal",
+      "joinDate": "2020-06-01",
+      "discordId": "=_/~#4663"
     },
     "Will": {
       "name": "Will",
