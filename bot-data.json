@@ -171,6 +171,16 @@
         "A hivemind version of Botimus Prime."
       ]
     },
+    "Bumbler": {
+      "name": "Bumbler",
+      "makers": [
+        "TheBeard"
+      ],
+      "language": "rlgym",
+      "notes": [
+        "A reinforcement learning bot made with RLGym and pytorch."
+      ]
+    },
     "CodenameArktis": {
       "name": "Codename Arktis",
       "makers": [
@@ -226,15 +236,35 @@
         "Pathfinding uses boostpads as waypoints."
       ]
     },
+    "DishBot": {
+      "name": "DishBot",
+      "makers": [
+        "FootlessQuill54"
+      ],
+      "language": "scratch",
+      "notes": [
+        "Its attack strategy is the bot dish, i.e. rolling the ball up the goal post so it goes in on the bounce."
+      ]
+    },
     "Element": {
       "name": "Element",
       "makers": [
         "Rangler"
       ],
-      "language": "pytorch",
+      "language": "rlgym",
       "notes": [
         "A neural network trained with reinforcement learning to play 1v1.",
-        "Element was trained with RLGym and has played more than 100k hours of Rocket League."
+        "Element was trained with RLGym and has played more than 200k hours (22 years) of Rocket League."
+      ]
+    },
+    "Engine": {
+      "name": "Engine",
+      "makers": [
+        "CTAG07"
+      ],
+      "language": "rlgym",
+      "notes": [
+        "Uses machine learning."
       ]
     },
     "FastFreeze": {
@@ -253,11 +283,28 @@
       "language": "scratch",
       "statsUrl": "https://braacket.com/league/rlbot/player/E9A0FAEC-CD9E-4A6A-B16B-C00ADB42FFE1"
     },
+    "GratinAI": {
+      "name": "GratinAI",
+      "makers": [
+        "SpudTheFantastic"
+      ],
+      "language": "python",
+      "notes": [
+        "Built on VirxERLU library."
+      ]
+    },
     "Heart of Gold": {
       "name": "Heart of Gold",
       "makers": [
         "excalo"
       ]
+    },
+    "HellowBot": {
+      "name": "HellowBot",
+      "makers": [
+        "hellow123"
+      ],
+      "language": "scratch"
     },
     "JoeyBot": {
       "name": "JoeyBot",
@@ -351,6 +398,48 @@
         "Penguin is an OG bot, grabbing his first title in his rookie year, but has not faired so well in 1v1 tournaments. He forged team Dappur with the hopes of grabbing another title.",
         "Some people have alleged that the inspiration for Team Dappur's name was a typo. These accusations are completely false, and the accusers shall be hanged at dawn."
       ]
+    },
+    "Phoenix": {
+      "name": "Phoenix",
+      "makers": [
+        "Eastvillage"
+      ],
+      "language": "kotlin"
+    },
+    "PotatOS": {
+      "name": "PotatOS But Better",
+      "makers": [
+        "SpudTheFantastic",
+        "GooseFairy"
+      ],
+      "language": "python",
+      "notes": [
+        "The original PotatOS was a spike rush bot."
+      ]
+    },
+    "Propeller": {
+      "name": "Propeller",
+      "makers": [
+        "CTAG07"
+      ],
+      "language": "rlgym",
+      "notes": [
+        "Uses machine learning."
+      ]
+    },
+    "Rabbot": {
+      "name": "Rabbot",
+      "makers": [
+        "SavageSnowgoose"
+      ],
+      "language": "python"
+    },
+    "Rapha": {
+      "name": "Rapha",
+      "makers": [
+        "TheBeard"
+      ],
+      "language": "python"
     },
     "ReliefBot": {
       "name": "ReliefBot",
@@ -724,6 +813,11 @@
       "joinDate": "2021-03-06",
       "discordId": "bigtaco#4277"
     },
+    "CTAG07": {
+      "name": "CTAG07",
+      "joinDate": "2021-04-13",
+      "notes": "Co-hosted a 1v1 tournament."
+    },
     "Darxeal": {
       "name": "Darxeal",
       "notes": "Led the team which won the Rocket League Air Show with their submission 'Awakening'. Added the appearance editor and many other features to RLBotGUI.",
@@ -791,6 +885,9 @@
       "discordId": "GooseFairy#6680",
       "countryCode": "US",
       "joinDate": "2017-08-19"
+    },
+    "hellow123": {
+      "name": "hellow123"
     },
     "Hytak": {
       "name": "Hytak",
@@ -872,6 +969,9 @@
       "discordId": "Tangil#3830",
       "notes": "Introduced the lockstep feature, which pauses the game until bots return output."
     },
+    "SavageSnowgoose": {
+      "name": "SavageSnowgoose"
+    },
     "Serpentine": {
       "name": "Serpentine",
       "countryCode": "NL",
@@ -883,6 +983,9 @@
       "discordId": "Skyborg#0894",
       "countryCode": "PT",
       "joinDate": "2018-01-10"
+    },
+    "SpudTheFantastic": {
+      "name": "SpudTheFantastic"
     },
     "Soren": {
       "name": "Soren",
