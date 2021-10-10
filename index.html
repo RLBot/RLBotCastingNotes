@@ -339,8 +339,72 @@
         }
     }
 
-    const DEFAULT_LEAGUE = "2v2 RLBot Championship 2020";
+    class QuickSearch extends React.Component {
+
+        constructor(props) {
+            super(props);
+
+            this.state = {
+                query: ""
+            };
+        }
+
+        inputChanged = (change) => {
+            this.setState({query: change.target.value.toLowerCase()})
+        };
+
+        render() {
+            const self = this;
+            const botLib = this.props.botLibrary;
+            const makerLib = this.props.makerLibrary;
+
+            let itemsMarkup = null;
+            if (this.state.query.length >= 3) {
+                const matchingEntries = Object.entries(botLib).filter((entry) => {
+                    const bot = entry[1];
+                    if (bot.name.toLowerCase().indexOf(this.state.query) >= 0) {
+                        return true;
+                    }
+                    for (const makerId of bot.makers) {
+                        if (makerId.toLowerCase().indexOf(this.state.query) >= 0) {
+                            return true;
+                        }
+                        const maker = makerLib[makerId];
+                        if (maker && maker.name.toLowerCase().indexOf(this.state.query) >= 0) {
+                            return true;
+                        }
+                    }
+                    return false;
+                });
+
+                itemsMarkup = matchingEntries.map(function(entry) {
+                    return (
+                        <div>
+                            <Card>
+                                <CardContent>
+                                    <BotSpotlight botId={entry[0]} {...self.props} key={entry[0]} />
+                                </CardContent>
+                            </Card>
+                            <br />
+                        </div>
+
+                    );
+                });
+            }
+
+            return (
+                <div style={{minHeight: "500px"}}>
+                    <br />
+                    <TextField label="Search bot or maker" type="text" onChange={this.inputChanged} />
+                    {itemsMarkup}
+                </div>
+            );
+        }
+    }
+
     const ALL_BOTS = "All Bots";
+    const QUICK_SEARCH = "Quick Search";
+    const DEFAULT_LEAGUE = QUICK_SEARCH;
 
     class UltimateBattleLeague extends React.Component {
 
@@ -472,6 +536,10 @@
                         </Grid>
                     </Grid>
                 );
+            } else if (this.state.activeLeague === QUICK_SEARCH) {
+                return (
+                    <QuickSearch botLibrary={this.state.bots} makerLibrary={this.state.makers} spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} />
+                )
             }
         }
 
@@ -481,7 +549,7 @@
             let tabContent;
 
             if (activeTab === 0) {
-                const leagueChoices = ["2v2 RLBot Championship 2020", "Ultimate Battle League", ALL_BOTS].map((choice) => (
+                const leagueChoices = [QUICK_SEARCH, ALL_BOTS, "2v2 RLBot Championship 2020", "Ultimate Battle League"].map((choice) => (
                     <MenuItem value={choice}>{choice}</MenuItem>
                 ));
 
