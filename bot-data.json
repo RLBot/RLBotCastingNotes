@@ -246,6 +246,16 @@
         "Its attack strategy is the bot dish, i.e. rolling the ball up the goal post so it goes in on the bounce."
       ]
     },
+    "DownToEarth": {
+      "name": "DownToEarth",
+      "makers": [
+        "VirxEC"
+      ],
+      "language": "python",
+      "notes": [
+        "Never jumps."
+      ]
+    },
     "Element": {
       "name": "Element",
       "makers": [
@@ -359,6 +369,13 @@
         "Uses hardcoded kick-offs made by Jeroen.",
         "Only sees the ball."
       ]
+    },
+    "Malware": {
+      "name": "Malware",
+      "makers": [
+        "ThatGuyDed"
+      ],
+      "language": "python"
     },
     "Manticore": {
       "name": "Manticore",
@@ -543,8 +560,7 @@
       ],
       "language": "python",
       "notes": [
-        "This is the best bot - of all the worst bots :P",
-        "This bot isn't picky with its car body."
+        "Able to use any car shape because the bot understands hitboxes."
       ]
     },
     "Wildfire": {
