@@ -42,6 +42,16 @@
         "Shares a codebase with ReliefBot."
       ]
     },
+    "ShereKhan": {
+      "name": "Shere Khan",
+      "makers": [
+        "tarehart"
+      ],
+      "language": "kotlin",
+      "notes": [
+        "Inspired by a friend's awesome Maine Coon cat that parkours around the house."
+      ]
+    },
     "Anarchy": {
       "name": "Anarchy",
       "makers": [
@@ -154,11 +164,21 @@
     "BroccoliBot": {
       "name": "BroccoliBot",
       "makers": [
-        "Ellbell"
+        "CodeRed"
       ],
       "language": "python",
       "notes": [
         "I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."
+      ]
+    },
+    "RedBot": {
+      "name": "RedBot",
+      "makers": [
+        "CodeRed"
+      ],
+      "language": "csharp",
+      "notes": [
+        "Showcase for RedUtils."
       ]
     },
     "Bumblebee": {
@@ -174,7 +194,7 @@
     "Bumbler": {
       "name": "Bumbler",
       "makers": [
-        "TheBeard"
+        "Impossibum"
       ],
       "language": "rlgym",
       "notes": [
@@ -218,7 +238,7 @@
     "Diablo": {
       "name": "Diablo",
       "makers": [
-        "TheBeard"
+        "Impossibum"
       ],
       "language": "python",
       "statsUrl": "https://braacket.com/league/rlbot/player/F1CA93A6-34F9-43AE-B4F1-BB4B6FAE3D13"
@@ -228,7 +248,7 @@
       "makers": [
         "Hytak",
         "Marvin",
-        "TheBeard"
+        "Impossibum"
       ],
       "language": "python",
       "notes": [
@@ -330,7 +350,7 @@
     "Kamael": {
       "name": "Kamael",
       "makers": [
-        "TheBeard"
+        "Impossibum"
       ],
       "language": "python",
       "statsUrl": "https://braacket.com/league/rlbot/player/8D13C0E3-8E42-432D-9729-A7424644D129?ranking=1A3DCD4A-CC77-4A53-AE19-B2E2F52C790F",
@@ -390,7 +410,7 @@
     "Molten": {
       "name": "Molten",
       "makers": [
-        "Ellbell"
+        "CodeRed"
       ],
       "language": "python",
       "notes": []
@@ -454,7 +474,7 @@
     "Rapha": {
       "name": "Rapha",
       "makers": [
-        "TheBeard"
+        "Impossibum"
       ],
       "language": "python"
     },
@@ -513,7 +533,7 @@
     "St. Peter": {
       "name": "St. Peter",
       "makers": [
-        "TheBeard"
+        "Impossibum"
       ],
       "language": "python",
       "notes": [
@@ -855,10 +875,10 @@
       "countryCode": "DK",
       "joinDate": "2018-02-07"
     },
-    "Ellbell": {
-      "name": "Ellbell",
-      "notes": "A promising bot maker.",
-      "discordId": "Ellbell#2168",
+    "CodeRed": {
+      "name": "CodeRed",
+      "notes": "Made a powerful set of bot utilities in C# called RedUtils.",
+      "discordId": "CodeRed#2168",
       "countryCode": "US",
       "joinDate": "2018-11-17"
     },
@@ -1017,7 +1037,7 @@
       "discordId": "ThatGuyDed#1536",
       "notes": ""
     },
-    "TheBeard": {
+    "Impossibum": {
       "name": "Impossibum",
       "notes": "Previously called The Beard. Popular commentator for RLBot events. Has a youtube channel.",
       "discordId": "Impossibum#1555",
