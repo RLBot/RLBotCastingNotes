@@ -85,6 +85,13 @@
         "Best features of Anarchy: Drawing an anime girl in the middle of the field; playing a sound every time it jumps; playing music every time it scores."
       ]
     },
+    "ballerbot": {
+      "name": "ballerbot",
+      "makers": [
+        "gdfrostbite"
+      ],
+      "language": "scratch"
+    },
     "Beast": {
       "name": "Beast from the East",
       "makers": [
@@ -106,6 +113,13 @@
         "Designed mainly as a 2v2 bot.",
         "Based on GoslingUtils."
       ]
+    },
+    "ByteBot": {
+      "name": "ByteBot",
+      "makers": [
+        "WesKal"
+      ],
+      "language": "rlgym"
     },
     "BotimusPrime": {
       "name": "Botimus Prime",
@@ -201,6 +215,16 @@
         "A reinforcement learning bot made with RLGym and pytorch."
       ]
     },
+    "BurgundyBot": {
+      "name": "BurgundyBot",
+      "makers": [
+        "CodeRed"
+      ],
+      "language": "csharp",
+      "notes": [
+        "RedUtils with strategy added."
+      ]
+    },
     "CodenameArktis": {
       "name": "Codename Arktis",
       "makers": [
@@ -234,6 +258,13 @@
         "Cryo is derived from the Greek word κρύος (krúos), meaning \"icy cold\".",
         "Credits to GooseFairy for GoslingUtils, and jeroen11dijk for aerials."
       ]
+    },
+    "CTAUtils": {
+      "name": "CTAUtils",
+      "makers": [
+        "CTAG07"
+      ],
+      "language": "scratch"
     },
     "Diablo": {
       "name": "Diablo",
@@ -305,6 +336,11 @@
       "language": "python",
       "notes": []
     },
+    "FillamentBot": {
+      "name": "FillamentBot",
+      "makers": [ "LuminousLamp" ],
+      "language": "python"
+    },
     "Gibbus": {
       "name": "Gibbus",
       "makers": [
@@ -322,6 +358,13 @@
       "notes": [
         "Built on VirxERLU library."
       ]
+    },
+    "Gyser": {
+      "name": "Gyser",
+      "makers": [
+        "QuadBlueShadow"
+      ],
+      "language": "scratch"
     },
     "Heart of Gold": {
       "name": "Heart of Gold",
@@ -415,6 +458,17 @@
       "language": "python",
       "notes": []
     },
+    "Necto": {
+      "name": "Necto",
+      "makers": [
+        "Rolv", "Soren"
+      ],
+      "language": "rlgym",
+      "notes": [
+        "Necto is the official RLGym community bot, trained using PPO with workers run by people all around the world.",
+        "Necto uses a network type called attention, commonly used for text understanding, to support any number of players."
+      ]
+    },
     "OmNom": {
       "name": "Om Nom",
       "makers": [
@@ -442,6 +496,16 @@
         "Eastvillage"
       ],
       "language": "kotlin"
+    },
+    "Phoenix CS": {
+      "name": "Phoenix",
+      "makers": [
+        "Eastvillage"
+      ],
+      "language": "csharp",
+      "notes": [
+        "Phoenix CS is a rewrite in C# using RedUtils. The original Phoenix was in Kotlin."
+      ]
     },
     "PotatOS": {
       "name": "PotatOS But Better",
@@ -477,6 +541,14 @@
         "Impossibum"
       ],
       "language": "python"
+    },
+    "Raptor": {
+      "name": "Raptor",
+      "makers": [
+        "Impossibum"
+      ],
+      "language": "rlgym",
+      "notes": [ "Reinforcement learning agent trained in 2's." ]
     },
     "ReliefBot": {
       "name": "ReliefBot",
@@ -528,6 +600,16 @@
       "statsUrl": "https://braacket.com/league/rlbot/player/54FB8C16-6FA9-4C4A-AAD5-3DB8A6AE169B",
       "notes": [
         "It's a dribble bot despite the name. Famous for having been fixed by a framework update, instead of by its creator."
+      ]
+    },
+    "SpeedyBat": {
+      "name": "SpeedyBat",
+      "makers": [
+        "CTAG07"
+      ],
+      "language": "scratch",
+      "notes": [
+        "Formerly known as CTAUtils."
       ]
     },
     "St. Peter": {
@@ -908,6 +990,11 @@
       "discordId": "FootlessQuill54#2528",
       "joinDate": "2018-11-17"
     },
+    "gdfrostbite": {
+      "name": "gdfr0stb1t3",
+      "discordId": "fr0stb1t3#2887",
+      "joinDate": "2021-12-12"
+    },
     "GodGamer029": {
       "name": "GodGamer029",
       "notes": "Works on YangBot. Java, C++. Fan of efficient code",
@@ -970,6 +1057,11 @@
       "countryCode": "BE",
       "joinDate": "2019-12-26"
     },
+    "LuminousLamp": {
+      "name": "LuminousLamp367",
+      "discordId": "luminouslamp367#0297",
+      "joinDate": "2021-02-16"
+    },
     "Marvin": {
       "name": "Marvin",
       "countryCode": "US",
@@ -991,6 +1083,11 @@
       "countryCode": "US",
       "joinDate": "2019-02-15"
     },
+    "QuadBlueShadow": {
+      "name": "QuadBlueShadow",
+      "discordId": "Quadblueshadow#0368",
+      "joinDate": "2022-01-22"
+    },
     "Rangler": {
       "name": "Rangler",
       "countryCode": "AR",
@@ -1005,8 +1102,15 @@
       "discordId": "Tangil#3830",
       "notes": "Introduced the lockstep feature, which pauses the game until bots return output."
     },
+    "Rolv": {
+      "name": "Rolv",
+      "discordId": "Rolv#1337",
+      "joinDate": "2019-05-30"
+    },
     "SavageSnowgoose": {
-      "name": "SavageSnowgoose"
+      "name": "SavageSnowgoose",
+      "notes": "Has fixed several bugs with the way we launch Epic version of Rocket League.",
+      "joinDate": "2021-09-23"
     },
     "Serpentine": {
       "name": "Serpentine",
@@ -1052,7 +1156,7 @@
       "joinDate": "2020-05-14"
     },
     "WesKal": {
-      "name": "WesKal",
+      "name": "Wes",
       "joinDate": "2020-06-01",
       "discordId": "=_/~#4663"
     },
