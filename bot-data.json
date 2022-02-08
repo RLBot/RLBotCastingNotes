@@ -934,7 +934,8 @@
     "CTAG07": {
       "name": "CTAG07",
       "joinDate": "2021-04-13",
-      "notes": "Co-hosted a 1v1 tournament."
+      "notes": "Co-hosted a 1v1 tournament.",
+      "countryCode": "US"
     },
     "Darxeal": {
       "name": "Darxeal",
@@ -1060,6 +1061,7 @@
     "LuminousLamp": {
       "name": "LuminousLamp367",
       "discordId": "luminouslamp367#0297",
+      "countryCode": "AU",
       "joinDate": "2021-02-16"
     },
     "Marvin": {
@@ -1105,10 +1107,12 @@
     "Rolv": {
       "name": "Rolv",
       "discordId": "Rolv#1337",
-      "joinDate": "2019-05-30"
+      "joinDate": "2019-05-30",
+      "countryCode": "NO"
     },
     "SavageSnowgoose": {
       "name": "SavageSnowgoose",
+      "discordId": "Snowgoose#4133",
       "notes": "Has fixed several bugs with the way we launch Epic version of Rocket League.",
       "joinDate": "2021-09-23"
     },
@@ -1158,7 +1162,8 @@
     "WesKal": {
       "name": "Wes",
       "joinDate": "2020-06-01",
-      "discordId": "=_/~#4663"
+      "discordId": "=_/~#4663",
+      "countryCode": "US"
     },
     "Will": {
       "name": "Will",

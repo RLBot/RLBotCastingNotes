@@ -11,6 +11,7 @@
     <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@material-ui/core@3.9.3/umd/material-ui.production.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/moment@2.29.1/min/moment.min.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -170,7 +171,7 @@
     class JoinDate extends React.Component {
         render() {
             if (this.props.date) {
-                return (<span>joined {this.props.date}</span>);
+                return (<span>joined {moment(this.props.date).fromNow()}</span>);
             }
             return null;
         }
