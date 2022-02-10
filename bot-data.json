@@ -173,7 +173,8 @@
         "Officially* RLBots most feared ballchaser.",
         "Doesn't ever defend, as defending is a sign of being insecure. Instead, goes for demo's like a real alpha male.",
         "Some of the code such as kickoffs and recovery code is not present in the botpack and public repo, as this code is stolen code from Bribblebots cousin Bottleneck."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/080946D0-D11F-4631-B0F2-CA3410025825"
     },
     "BroccoliBot": {
       "name": "BroccoliBot",
@@ -183,7 +184,8 @@
       "language": "python",
       "notes": [
         "I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/AB74B770-D1B7-40EE-B8A7-25BF650AD5EB"
     },
     "RedBot": {
       "name": "RedBot",
@@ -193,7 +195,8 @@
       "language": "csharp",
       "notes": [
         "Showcase for RedUtils."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/2D97AA46-3826-49AE-8944-57B780B72F86"
     },
     "Bumblebee": {
       "name": "Bumblebee",
@@ -213,7 +216,8 @@
       "language": "rlgym",
       "notes": [
         "A reinforcement learning bot made with RLGym and pytorch."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/CE01AD05-DD7C-4D9E-AAC3-2682D465BC70"
     },
     "BurgundyBot": {
       "name": "BurgundyBot",
@@ -223,7 +227,8 @@
       "language": "csharp",
       "notes": [
         "RedUtils with strategy added."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/882BEE4C-A82F-4EBD-B021-392653D3213A"
     },
     "CodenameArktis": {
       "name": "Codename Arktis",
@@ -326,7 +331,8 @@
       "language": "rlgym",
       "notes": [
         "Uses machine learning."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/BDD7FD44-4715-4247-AB8E-2C3349206298"
     },
     "FastFreeze": {
       "name": "FastFreeze",
@@ -339,7 +345,8 @@
     "FillamentBot": {
       "name": "FillamentBot",
       "makers": [ "LuminousLamp" ],
-      "language": "python"
+      "language": "python",
+      "statsUrl": "https://braacket.com/league/rlbot/player/5856D10B-4B2B-4D84-8772-6016575231ED"
     },
     "Gibbus": {
       "name": "Gibbus",
@@ -467,7 +474,8 @@
       "notes": [
         "Necto is the official RLGym community bot, trained using PPO with workers run by people all around the world.",
         "Necto uses a network type called attention, commonly used for text understanding, to support any number of players."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/43FD3E3F-0A39-4E16-AF03-F6110247D34B"
     },
     "OmNom": {
       "name": "Om Nom",
@@ -498,14 +506,15 @@
       "language": "kotlin"
     },
     "Phoenix CS": {
-      "name": "Phoenix",
+      "name": "Phoenix CS",
       "makers": [
         "Eastvillage"
       ],
       "language": "csharp",
       "notes": [
         "Phoenix CS is a rewrite in C# using RedUtils. The original Phoenix was in Kotlin."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/BDCEBCD0-52D4-4513-8E19-63D3CE50F1F0"
     },
     "PotatOS": {
       "name": "PotatOS But Better",
@@ -533,7 +542,8 @@
       "makers": [
         "SavageSnowgoose"
       ],
-      "language": "python"
+      "language": "python",
+      "statsUrl": "https://braacket.com/league/rlbot/player/5BB2201E-63DC-497D-BD2F-75DB05C27C59"
     },
     "Rapha": {
       "name": "Rapha",
@@ -548,7 +558,8 @@
         "Impossibum"
       ],
       "language": "rlgym",
-      "notes": [ "Reinforcement learning agent trained in 2's." ]
+      "notes": [ "Reinforcement learning agent trained in 2's." ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/7608E426-F888-4DF6-B1BB-18F06CAFB529"
     },
     "ReliefBot": {
       "name": "ReliefBot",
