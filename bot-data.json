@@ -230,6 +230,11 @@
       ],
       "statsUrl": "https://braacket.com/league/rlbot/player/882BEE4C-A82F-4EBD-B021-392653D3213A"
     },
+    "Cheese": {
+      "name": "Cheese",
+      "makers": ["JoshyDev"],
+      "language": "python"
+    },
     "CodenameArktis": {
       "name": "Codename Arktis",
       "makers": [
@@ -1050,6 +1055,12 @@
       "joinDate": "2018-11-18",
       "discordId": "Jonas#2222"
     },
+    "JoshyDev": {
+      "name": "JoshyDev",
+      "discordId": "JoshyDev#6221",
+      "notes": "Submitted a bot before ever speaking in discord.",
+      "joinDate": "2022-01-14"
+    },
     "Kipje13": {
       "name": "Kipje13",
       "countryCode": "NL",
@@ -1064,7 +1075,7 @@
     },
     "L0laapk3": {
       "name": "L0laapk3",
-      "notes": "Too stubborn to actually make a bot",
+      "notes": "Made a really cool script called Laserboi, available in RLBotGUI",
       "discordId": "L0laapk3#2010",
       "countryCode": "BE",
       "joinDate": "2019-12-26"
@@ -1099,7 +1110,8 @@
     "QuadBlueShadow": {
       "name": "QuadBlueShadow",
       "discordId": "Quadblueshadow#0368",
-      "joinDate": "2022-01-22"
+      "joinDate": "2022-01-22",
+      "countryCode": "US"
     },
     "Rangler": {
       "name": "Rangler",
@@ -1125,7 +1137,8 @@
       "name": "SavageSnowgoose",
       "discordId": "Snowgoose#4133",
       "notes": "Has fixed several bugs with the way we launch Epic version of Rocket League.",
-      "joinDate": "2021-09-23"
+      "joinDate": "2021-09-23",
+      "countryCode": "AU"
     },
     "Serpentine": {
       "name": "Serpentine",
