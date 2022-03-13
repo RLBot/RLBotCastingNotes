@@ -341,6 +341,25 @@
         }
     }
 
+    class BotList extends React.Component {
+
+        render() {
+            const self = this;
+            const botLib = this.props.botLibrary;
+            const botList = this.props.botList;
+
+            const itemsMarkup = botList.map(function(botName) {
+                return (
+                    <BotRow botId={botName} {...self.props} key={botName} />
+                );
+            });
+
+            return (
+                <div>{itemsMarkup}</div>
+            );
+        }
+    }
+
     class QuickSearch extends React.Component {
 
         constructor(props) {
@@ -406,7 +425,8 @@
 
     const ALL_BOTS = "All Bots";
     const QUICK_SEARCH = "Quick Search";
-    const DEFAULT_LEAGUE = QUICK_SEARCH;
+    const DEFAULT_BOT_SET = "RLBot Championship 2022";
+    const DEFAULT_LEAGUE = DEFAULT_BOT_SET;
 
     class UltimateBattleLeague extends React.Component {
 
@@ -414,7 +434,7 @@
             super(props);
 
             this.state = {
-                bots: {}, leagues: {}, activeLeague: DEFAULT_LEAGUE, makers: {}, pendingBotName: "",
+                bots: {}, leagues: {}, botSets: {}, activeLeague: DEFAULT_LEAGUE, makers: {}, pendingBotName: "",
                 showSnack: false, snackMessage: "", activeTeam: null, activeBotId: null, activeTab: 0
             };
 
@@ -422,7 +442,13 @@
                 const content = this.fileReader.result;
                 const state = JSON.parse(content);
                 this.comparisonHash = state.comparisonHash;
-                this.setState({bots: state.bots, leagues: state.leagues, activeLeague: DEFAULT_LEAGUE, makers: state.makers});
+                debugger;
+                this.setState({
+                    bots: state.bots,
+                    leagues: state.leagues,
+                    botSets: state.botSets,
+                    activeLeague: DEFAULT_LEAGUE,
+                    makers: state.makers});
             };
 
             this.handleSelectedFile = (file) => {
@@ -451,7 +477,7 @@
                 .then(res => res.json())
                 .then((result) => {
                     this.setState({
-                        bots: result.bots, leagues: result.leagues, activeLeague: DEFAULT_LEAGUE, makers: result.makers
+                        bots: result.bots, leagues: result.leagues, botSets: result.botSets, activeLeague: DEFAULT_LEAGUE, makers: result.makers
                     });
                 },
                 (error) => {
@@ -538,7 +564,27 @@
                         </Grid>
                     </Grid>
                 );
-            } else if (this.state.activeLeague === QUICK_SEARCH) {
+            } else if (this.state.botSets[this.state.activeLeague]) {
+                return (
+                    <Grid container spacing={24}>
+                        <Grid item>
+                            <h2>{this.state.activeLeague}</h2>
+                            <Card className="leftPane">
+                                <CardContent>
+                                    <BotList botList={this.state.botSets[this.state.activeLeague]}
+                                             botLibrary={this.state.bots}
+                                             makerLibrary={this.state.makers}
+                                             spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} />
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                        <Grid item>
+                            {botSpotlightContent}
+                        </Grid>
+                    </Grid>
+                );
+            }
+            else if (this.state.activeLeague === QUICK_SEARCH) {
                 return (
                     <QuickSearch botLibrary={this.state.bots} makerLibrary={this.state.makers} spotlightBot={this.spotlightBot} spotlightMaker={this.spotlightMaker} />
                 )
@@ -551,7 +597,7 @@
             let tabContent;
 
             if (activeTab === 0) {
-                const leagueChoices = [QUICK_SEARCH, ALL_BOTS, "2v2 RLBot Championship 2020", "Ultimate Battle League"].map((choice) => (
+                const leagueChoices = [QUICK_SEARCH, ALL_BOTS, "RLBot Championship 2022"].map((choice) => (
                     <MenuItem value={choice}>{choice}</MenuItem>
                 ));
 

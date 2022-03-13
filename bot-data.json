@@ -934,6 +934,17 @@
       }
     ]
   },
+  "botSets": {
+    "RLBot Championship 2022": [
+      "Necto",
+      "Element",
+      "BotimusPrime",
+      "SDC",
+      "Kamael",
+      "ReliefBot",
+      "BroccoliBot"
+    ]
+  },
   "makers": {
     "B1ue_F1re": {
       "name": "B1ue_F1re",
