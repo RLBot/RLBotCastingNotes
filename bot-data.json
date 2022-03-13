@@ -129,7 +129,8 @@
       "language": "python",
       "statsUrl": "https://braacket.com/league/rlbot/player/86503A63-A4CE-4FBE-B03C-FD7C76B8BFD6",
       "notes": [
-        "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish and a beautiful flick!"
+        "Botimus made his tournament debut in RLBot 2018 with a 2nd place finish and a beautiful flick!",
+        "Shares a lot of code with the famous hive-mind bot Bumblebee."
       ]
     },
     "BotTaco": {
@@ -183,7 +184,9 @@
       ],
       "language": "python",
       "notes": [
-        "I named the bot because I said Rocket League Bot kinda fast and it sounded like I was saying Broccoli Bot. It was made with GoslingUtils."
+        "If you say 'Rocket League Bot' kinda fast it sounds like Broccoli Bot.",
+        "Strong on defense.",
+        "It was made with GoslingUtils."
       ],
       "statsUrl": "https://braacket.com/league/rlbot/player/AB74B770-D1B7-40EE-B8A7-25BF650AD5EB"
     },
@@ -194,7 +197,8 @@
       ],
       "language": "csharp",
       "notes": [
-        "Showcase for RedUtils."
+        "Showcase for RedUtils, a botmaking library with great mechanics.",
+        "Super aggressive ball chaser with very little strategy."
       ],
       "statsUrl": "https://braacket.com/league/rlbot/player/2D97AA46-3826-49AE-8944-57B780B72F86"
     },
@@ -324,9 +328,11 @@
       ],
       "language": "rlgym",
       "notes": [
+        "Made its debut in East's League Play and rose extremely quickly.",
         "A neural network trained with reinforcement learning to play 1v1.",
         "Element was trained with RLGym and has played more than 200k hours (22 years) of Rocket League."
-      ]
+      ],
+      "statsUrl": "https://braacket.com/league/rlbot/player/2838BA10-1073-46AD-A7FD-C8055539883B"
     },
     "Engine": {
       "name": "Engine",
@@ -410,6 +416,9 @@
       "language": "python",
       "statsUrl": "https://braacket.com/league/rlbot/player/8D13C0E3-8E42-432D-9729-A7424644D129?ranking=1A3DCD4A-CC77-4A53-AE19-B2E2F52C790F",
       "notes": [
+        "Winner of East's League Play season 2.",
+        "1v1 champion since November 2020.",
+        "Famous on Rocket Sledge's youtube with over 660K views.",
         "Popularized the double jump mechanic."
       ]
     },
@@ -477,6 +486,8 @@
       ],
       "language": "rlgym",
       "notes": [
+        "Has trained for over 30 years of in-game time.",
+        "Famous on Rocket Sledge's youtube, with over 125K views.",
         "Necto is the official RLGym community bot, trained using PPO with workers run by people all around the world.",
         "Necto uses a network type called attention, commonly used for text understanding, to support any number of players."
       ],
@@ -939,6 +950,7 @@
       "Necto",
       "Element",
       "BotimusPrime",
+      "RedBot",
       "SDC",
       "Kamael",
       "ReliefBot",
