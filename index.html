@@ -187,6 +187,16 @@
         "rlgym": "rlgym.png"
     };
 
+    const LANGUAGE_NAMES = {
+        "python": "Python",
+        "kotlin": "Kotlin",
+        "java": "Java",
+        "csharp": "C#",
+        "rust": "Rust",
+        "scratch": "Scratch",
+        "rlgym": "RLGym machine learning"
+    };
+
     class BotSpotlight extends React.Component {
 
         render() {
@@ -201,6 +211,11 @@
                     return <li>{listItems}</li>;
                 });
             }
+            const languageName = bot.language ? LANGUAGE_NAMES[bot.language] : null;
+            if (languageName) {
+                updatedList.unshift(<li>Made with {languageName}.</li>)
+            }
+
             const self = this;
 
             const makersMarkup = bot.makers.map(function(makerId, idx) {
